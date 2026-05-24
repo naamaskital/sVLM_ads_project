@@ -1,0 +1,40 @@
+section,name,count
+moderation_label,safe_or_irrelevant,52998
+moderation_label,alcohol,2850
+moderation_label,animal_abuse,649
+moderation_label,smoking_alcohol_abuse,621
+moderation_label,bullying,279
+moderation_label,violence,261
+moderation_label,gambling,36
+pitt_topic,Clothing and accessories,8578
+pitt_topic,"Cars, automobiles",7144
+pitt_topic,Beauty products and cosmetics,5938
+pitt_topic,"Restaurants, cafe, fast food",4188
+pitt_topic,"Soda, juice, milk, energy drinks, water",4165
+pitt_topic,Electronics,3925
+pitt_topic,"Chocolate, cookies, candy, ice cream",3856
+pitt_topic,Alcohol,2850
+pitt_topic,Sports equipment and activities,2653
+pitt_topic,Shopping,2141
+pitt_topic,Vacation and travel,2139
+pitt_topic,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",1915
+pitt_topic,Media and arts,1453
+pitt_topic,"Phone, TV and internet service providers",823
+pitt_topic,"Seasoning, condiments, ketchup",774
+pitt_topic,"Coffee, tea",740
+pitt_topic,"Animal rights, animal abuse",649
+pitt_topic,Home appliances,638
+pitt_topic,"Smoking, alcohol abuse",621
+pitt_topic,Games and toys,616
+pitt_topic,Software,360
+pitt_topic,Home improvements and repairs,290
+pitt_topic,"Self esteem, bullying, cyber bullying",279
+pitt_topic,Domestic violence,261
+pitt_topic,Cleaning products,216
+pitt_topic,Education,171
+pitt_topic,Charities,133
+pitt_topic,Baby products,100
+pitt_topic,Pet food,42
+pitt_topic,Gambling,36
+excluded,free_text_topics_for_review,470
+excluded,total_excluded_rows,6646

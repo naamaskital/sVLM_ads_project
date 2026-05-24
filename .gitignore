@@ -1,0 +1,34 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large raw data
+data/raw/
+*.zip
+*.tar.gz
+
+# Models / checkpoints
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Reports/viewers generated locally
+reports/
+
+# Generated large processed datasets
+data/processed/pitt_ads/pitt_topics.csv
+data/processed/pitt_ads/pitt_moderation_dataset.csv
+data/processed/pitt_ads/pitt_binary_topic_dataset.csv
+data/processed/pitt_ads/pitt_moderation_coarse_dataset.csv
+data/processed/pitt_ads/pitt_moderation_coarse_balanced.csv
+data/processed/pitt_ads/splits/
+
+# Keep small important mapping/summary files
+!data/processed/pitt_ads/pitt_topic_to_moderation_label.csv
+!data/processed/pitt_ads/*summary.csv
+!data/processed/pitt_ads/pitt_missing_topic_mapping_review.csv
+*.bak

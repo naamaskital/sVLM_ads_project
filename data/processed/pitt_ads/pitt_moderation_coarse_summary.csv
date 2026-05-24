@@ -1,0 +1,12 @@
+section,name,count
+coarse_label,safe_or_irrelevant,52998
+coarse_label,substance,3471
+coarse_label,violence_or_abuse,910
+coarse_label,bullying,279
+fine_label,safe_or_irrelevant,52998
+fine_label,alcohol,2850
+fine_label,animal_abuse,649
+fine_label,smoking_alcohol_abuse,621
+fine_label,bullying,279
+fine_label,violence,261
+excluded,excluded_rows,36

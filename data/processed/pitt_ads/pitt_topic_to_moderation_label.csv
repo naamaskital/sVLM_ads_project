@@ -1,0 +1,40 @@
+majority_topic_name,moderation_label,include_in_dataset
+"Restaurants, cafe, fast food",safe_or_irrelevant,yes
+"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,yes
+"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,yes
+"Seasoning, condiments, ketchup",safe_or_irrelevant,yes
+"Pet food",safe_or_irrelevant,yes
+"Alcohol",alcohol,yes
+"Coffee, tea",safe_or_irrelevant,yes
+"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,yes
+"Cars, automobiles",safe_or_irrelevant,yes
+"Electronics",safe_or_irrelevant,yes
+"Phone, TV and internet service providers",safe_or_irrelevant,yes
+"Financial services",exclude,no
+"Education",safe_or_irrelevant,yes
+"Security and safety services",exclude,no
+"Software",safe_or_irrelevant,yes
+"Other services",exclude,no
+"Beauty products and cosmetics",safe_or_irrelevant,yes
+"Healthcare and medications",exclude,no
+"Clothing and accessories",safe_or_irrelevant,yes
+"Baby products",safe_or_irrelevant,yes
+"Games and toys",safe_or_irrelevant,yes
+"Cleaning products",safe_or_irrelevant,yes
+"Home improvements and repairs",safe_or_irrelevant,yes
+"Home appliances",safe_or_irrelevant,yes
+"Vacation and travel",safe_or_irrelevant,yes
+"Media and arts",safe_or_irrelevant,yes
+"Sports equipment and activities",safe_or_irrelevant,yes
+"Shopping",safe_or_irrelevant,yes
+"Gambling",gambling,yes
+"Environment, nature, pollution, wildlife",exclude,no
+"Animal rights, animal abuse",animal_abuse,yes
+"Human rights",exclude,no
+"Safety, safe driving, fire safety",exclude,no
+"Smoking, alcohol abuse",smoking_alcohol_abuse,yes
+"Domestic violence",violence,yes
+"Self esteem, bullying, cyber bullying",bullying,yes
+"Political candidates",exclude,no
+"Charities",safe_or_irrelevant,yes
+"Unclear",exclude,no
