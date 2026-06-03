@@ -131,3 +131,40 @@ The next research step is to add OCR-based text features and compare:
 3. Image + OCR multimodal classification
 
 This will help test whether text improves performance, especially for subtle categories such as bullying and for confusing cases such as substance versus safe_or_irrelevant.
+
+## Multimodal experiment: Image + OCR
+
+After the image-only experiments, an OCR-based text experiment was added.
+
+The goal was to test whether the text that appears inside advertisements can improve classification.
+
+Three input settings were compared:
+
+| Input setting | Best model | Accuracy | Macro-F1 |
+|---|---|---:|---:|
+| OCR text only | OCR + Linear SVM | 0.6681 | 0.5885 |
+| Image only | CLIP + MLP | 0.8744 | 0.7937 |
+| Image + OCR | CLIP + OCR + MLP | 0.8801 | 0.8046 |
+
+The best final model is the multimodal fusion model. It combines frozen CLIP image embeddings with OCR-based text features and trains an MLP classification head on top of the combined representation.
+
+This model achieves the best overall performance:
+
+- Accuracy: 0.8801
+- Macro-F1: 0.8046
+- Weighted-F1: 0.8786
+
+## Final model confusion matrix
+
+| True label | Pred bullying | Pred safe_or_irrelevant | Pred substance | Pred violence_or_abuse |
+|---|---:|---:|---:|---:|
+| bullying | 23 | 13 | 2 | 5 |
+| safe_or_irrelevant | 4 | 642 | 42 | 11 |
+| substance | 1 | 55 | 461 | 5 |
+| violence_or_abuse | 3 | 16 | 11 | 107 |
+
+## Final conclusion
+
+OCR text alone is much weaker than image-based CLIP features. However, combining OCR with image embeddings gives the best result.
+
+This suggests that most of the useful information comes from the visual representation, but OCR adds complementary information. This is especially relevant for advertisements, where slogans, product names, and written messages may affect the meaning of the content.
