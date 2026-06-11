@@ -1,0 +1,149 @@
+{
+  "classifier": "mlp",
+  "labels": [
+    "bullying",
+    "safe_or_irrelevant",
+    "substance",
+    "violence_or_abuse"
+  ],
+  "val": {
+    "accuracy": 0.8959056210964608,
+    "macro_f1": 0.6065738170978497,
+    "weighted_f1": 0.9111009767832101,
+    "per_class_report": {
+      "bullying": {
+        "precision": 0.27956989247311825,
+        "recall": 0.6341463414634146,
+        "f1-score": 0.3880597014925373,
+        "support": 41.0
+      },
+      "safe_or_irrelevant": {
+        "precision": 0.9859832348495259,
+        "recall": 0.9026292615423324,
+        "f1-score": 0.9424668330487325,
+        "support": 7949.0
+      },
+      "substance": {
+        "precision": 0.43287937743190663,
+        "recall": 0.8557692307692307,
+        "f1-score": 0.5749354005167958,
+        "support": 520.0
+      },
+      "violence_or_abuse": {
+        "precision": 0.4032258064516129,
+        "recall": 0.7352941176470589,
+        "f1-score": 0.5208333333333334,
+        "support": 136.0
+      },
+      "accuracy": 0.8959056210964608,
+      "macro avg": {
+        "precision": 0.5254145778015409,
+        "recall": 0.7819597378555092,
+        "f1-score": 0.6065738170978497,
+        "support": 8646.0
+      },
+      "weighted avg": {
+        "precision": 0.9402011433440076,
+        "recall": 0.8959056210964608,
+        "f1-score": 0.9111009767832101,
+        "support": 8646.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        26,
+        11,
+        0,
+        4
+      ],
+      [
+        61,
+        7175,
+        574,
+        139
+      ],
+      [
+        0,
+        70,
+        445,
+        5
+      ],
+      [
+        6,
+        21,
+        9,
+        100
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.9051196116953658,
+    "macro_f1": 0.6420127072994821,
+    "weighted_f1": 0.9183470830673794,
+    "per_class_report": {
+      "bullying": {
+        "precision": 0.32558139534883723,
+        "recall": 0.6511627906976745,
+        "f1-score": 0.43410852713178294,
+        "support": 43.0
+      },
+      "safe_or_irrelevant": {
+        "precision": 0.9883974883974884,
+        "recall": 0.9107030562193434,
+        "f1-score": 0.947960987104798,
+        "support": 7951.0
+      },
+      "substance": {
+        "precision": 0.450199203187251,
+        "recall": 0.8659003831417624,
+        "f1-score": 0.5923984272608126,
+        "support": 522.0
+      },
+      "violence_or_abuse": {
+        "precision": 0.46835443037974683,
+        "recall": 0.8102189781021898,
+        "f1-score": 0.5935828877005348,
+        "support": 137.0
+      },
+      "accuracy": 0.9051196116953658,
+      "macro avg": {
+        "precision": 0.5581331293283308,
+        "recall": 0.8094963020402425,
+        "f1-score": 0.6420127072994821,
+        "support": 8653.0
+      },
+      "weighted avg": {
+        "precision": 0.9444027471714088,
+        "recall": 0.9051196116953658,
+        "f1-score": 0.9183470830673794,
+        "support": 8653.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        28,
+        10,
+        1,
+        4
+      ],
+      [
+        51,
+        7241,
+        544,
+        115
+      ],
+      [
+        3,
+        60,
+        452,
+        7
+      ],
+      [
+        4,
+        15,
+        7,
+        111
+      ]
+    ]
+  }
+}

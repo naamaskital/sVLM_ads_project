@@ -72,6 +72,10 @@ def extract_embeddings(df, processor, model, device, batch_size):
 
         with torch.no_grad():
             image_features = model.get_image_features(**inputs)
+
+            if hasattr(image_features, "pooler_output"):
+                image_features = image_features.pooler_output
+
             image_features = image_features / image_features.norm(dim=-1, keepdim=True)
 
         all_embeddings.append(image_features.cpu().numpy().astype("float32"))
@@ -122,7 +126,7 @@ def main():
     print(f"Using device: {device}")
 
     processor = CLIPProcessor.from_pretrained(MODEL_NAME)
-    model = CLIPModel.from_pretrained(MODEL_NAME)
+    model = CLIPModel.from_pretrained(MODEL_NAME, use_safetensors=True)
     model.to(device)
     model.eval()
 
