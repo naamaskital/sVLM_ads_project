@@ -32,3 +32,8 @@ data/processed/pitt_ads/splits/
 !data/processed/pitt_ads/*summary.csv
 !data/processed/pitt_ads/pitt_missing_topic_mapping_review.csv
 *.bak
+
+# Local cache files
+.cache/
+__pycache__/
+*.pyc

@@ -1,0 +1,13 @@
+split,coarse_label,count
+train,safe_or_irrelevant,3262
+train,substance,2429
+train,violence_or_abuse,637
+train,bullying,195
+val,safe_or_irrelevant,699
+val,substance,520
+val,violence_or_abuse,136
+val,bullying,41
+test,safe_or_irrelevant,699
+test,substance,522
+test,violence_or_abuse,137
+test,bullying,43

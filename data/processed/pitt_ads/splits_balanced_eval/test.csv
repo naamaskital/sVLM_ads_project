@@ -1,0 +1,1402 @@
+relative_image_path,image_path,pitt_topic_id,pitt_topic_name,moderation_label,majority_count,num_annotators,image_exists,fine_label,coarse_label,split
+1/17901.jpg,data/raw/pitt_ads/images/1/17901.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+4/165094.jpg,data/raw/pitt_ads/images/4/165094.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/85203.jpg,data/raw/pitt_ads/images/3/85203.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/10290.jpg,data/raw/pitt_ads/images/0/10290.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+1/116431.jpg,data/raw/pitt_ads/images/1/116431.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+8/88088.jpg,data/raw/pitt_ads/images/8/88088.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/46898.jpg,data/raw/pitt_ads/images/8/46898.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/4470.jpg,data/raw/pitt_ads/images/0/4470.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/32539.jpg,data/raw/pitt_ads/images/9/32539.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/6800.jpg,data/raw/pitt_ads/images/0/6800.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+0/116520.jpg,data/raw/pitt_ads/images/0/116520.jpg,31,"Animal rights, animal abuse",animal_abuse,4,5,True,animal_abuse,violence_or_abuse,test
+3/31363.jpg,data/raw/pitt_ads/images/3/31363.jpg,11,"Phone, TV and internet service providers",safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/122148.jpg,data/raw/pitt_ads/images/8/122148.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/116184.jpg,data/raw/pitt_ads/images/4/116184.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+1/32481.jpg,data/raw/pitt_ads/images/1/32481.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/128180.jpg,data/raw/pitt_ads/images/0/128180.jpg,25,Vacation and travel,safe_or_irrelevant,2,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/165944.jpg,data/raw/pitt_ads/images/4/165944.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/10378.jpg,data/raw/pitt_ads/images/8/10378.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/171660.png,data/raw/pitt_ads/images/10/171660.png,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/106351.jpg,data/raw/pitt_ads/images/1/106351.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+2/116312.jpg,data/raw/pitt_ads/images/2/116312.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+6/122726.jpg,data/raw/pitt_ads/images/6/122726.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/165137.jpg,data/raw/pitt_ads/images/7/165137.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/32811.jpg,data/raw/pitt_ads/images/1/32811.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/165327.jpg,data/raw/pitt_ads/images/7/165327.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/9918.jpg,data/raw/pitt_ads/images/8/9918.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+1/6501.jpg,data/raw/pitt_ads/images/1/6501.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/13269.jpg,data/raw/pitt_ads/images/9/13269.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/88995.jpg,data/raw/pitt_ads/images/5/88995.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/61082.jpg,data/raw/pitt_ads/images/2/61082.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/173473.png,data/raw/pitt_ads/images/10/173473.png,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+10/177353.png,data/raw/pitt_ads/images/10/177353.png,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/10017.jpg,data/raw/pitt_ads/images/7/10017.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+5/98575.jpg,data/raw/pitt_ads/images/5/98575.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/6993.jpg,data/raw/pitt_ads/images/3/6993.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/18103.jpg,data/raw/pitt_ads/images/3/18103.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+3/90653.jpg,data/raw/pitt_ads/images/3/90653.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/163458.jpg,data/raw/pitt_ads/images/8/163458.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/116335.jpg,data/raw/pitt_ads/images/5/116335.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+3/4103.jpg,data/raw/pitt_ads/images/3/4103.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/19453.jpg,data/raw/pitt_ads/images/3/19453.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/151772.jpg,data/raw/pitt_ads/images/2/151772.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+10/172606.png,data/raw/pitt_ads/images/10/172606.png,10,Electronics,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/29198.jpg,data/raw/pitt_ads/images/8/29198.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/136829.jpg,data/raw/pitt_ads/images/9/136829.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/177477.png,data/raw/pitt_ads/images/10/177477.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/32379.jpg,data/raw/pitt_ads/images/9/32379.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/96059.jpg,data/raw/pitt_ads/images/9/96059.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/21998.jpg,data/raw/pitt_ads/images/8/21998.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+5/10275.jpg,data/raw/pitt_ads/images/5/10275.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/124890.jpg,data/raw/pitt_ads/images/0/124890.jpg,9,"Cars, automobiles",safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/17621.jpg,data/raw/pitt_ads/images/1/17621.jpg,21,Games and toys,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/136828.jpg,data/raw/pitt_ads/images/8/136828.jpg,21,Games and toys,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/72966.jpg,data/raw/pitt_ads/images/6/72966.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/23851.jpg,data/raw/pitt_ads/images/1/23851.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/97669.jpg,data/raw/pitt_ads/images/9/97669.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/49010.jpg,data/raw/pitt_ads/images/0/49010.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+5/14025.jpg,data/raw/pitt_ads/images/5/14025.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+5/158725.jpg,data/raw/pitt_ads/images/5/158725.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+9/49259.jpg,data/raw/pitt_ads/images/9/49259.jpg,36,"Self esteem, bullying, cyber bullying",bullying,1,3,True,bullying,bullying,test
+4/115894.jpg,data/raw/pitt_ads/images/4/115894.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+9/27789.jpg,data/raw/pitt_ads/images/9/27789.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/41388.jpg,data/raw/pitt_ads/images/8/41388.jpg,35,Domestic violence,violence,3,3,True,violence,violence_or_abuse,test
+2/32432.jpg,data/raw/pitt_ads/images/2/32432.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/63990.jpg,data/raw/pitt_ads/images/0/63990.jpg,19,Clothing and accessories,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/88145.jpg,data/raw/pitt_ads/images/5/88145.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/90705.jpg,data/raw/pitt_ads/images/5/90705.jpg,28,Shopping,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/171353.png,data/raw/pitt_ads/images/10/171353.png,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/70286.jpg,data/raw/pitt_ads/images/6/70286.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+7/138007.jpg,data/raw/pitt_ads/images/7/138007.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/116849.jpg,data/raw/pitt_ads/images/9/116849.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/163462.jpg,data/raw/pitt_ads/images/2/163462.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/106785.jpg,data/raw/pitt_ads/images/5/106785.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/145648.jpg,data/raw/pitt_ads/images/8/145648.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/36048.jpg,data/raw/pitt_ads/images/8/36048.jpg,27,Sports equipment and activities,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/163549.jpg,data/raw/pitt_ads/images/9/163549.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/45859.jpg,data/raw/pitt_ads/images/9/45859.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+10/177828.png,data/raw/pitt_ads/images/10/177828.png,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/98461.jpg,data/raw/pitt_ads/images/1/98461.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/98433.jpg,data/raw/pitt_ads/images/3/98433.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/116259.jpg,data/raw/pitt_ads/images/9/116259.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+10/176292.png,data/raw/pitt_ads/images/10/176292.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+10/176149.png,data/raw/pitt_ads/images/10/176149.png,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/116345.jpg,data/raw/pitt_ads/images/5/116345.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+5/10285.jpg,data/raw/pitt_ads/images/5/10285.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/172554.png,data/raw/pitt_ads/images/10/172554.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,1,3,True,smoking_alcohol_abuse,substance,test
+9/163459.jpg,data/raw/pitt_ads/images/9/163459.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/22869.jpg,data/raw/pitt_ads/images/9/22869.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/31646.jpg,data/raw/pitt_ads/images/6/31646.jpg,26,Media and arts,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/57449.jpg,data/raw/pitt_ads/images/9/57449.jpg,27,Sports equipment and activities,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/15703.jpg,data/raw/pitt_ads/images/3/15703.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/47133.jpg,data/raw/pitt_ads/images/3/47133.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/116350.jpg,data/raw/pitt_ads/images/0/116350.jpg,31,"Animal rights, animal abuse",animal_abuse,5,5,True,animal_abuse,violence_or_abuse,test
+3/14903.jpg,data/raw/pitt_ads/images/3/14903.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+0/62590.jpg,data/raw/pitt_ads/images/0/62590.jpg,21,Games and toys,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/85900.jpg,data/raw/pitt_ads/images/0/85900.jpg,9,"Cars, automobiles",safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/68795.jpg,data/raw/pitt_ads/images/5/68795.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+2/133232.jpg,data/raw/pitt_ads/images/2/133232.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+1/39481.jpg,data/raw/pitt_ads/images/1/39481.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/153596.jpg,data/raw/pitt_ads/images/6/153596.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/130522.jpg,data/raw/pitt_ads/images/2/130522.jpg,36,"Self esteem, bullying, cyber bullying",bullying,1,3,True,bullying,bullying,test
+1/43811.jpg,data/raw/pitt_ads/images/1/43811.jpg,7,"Coffee, tea",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/156661.jpg,data/raw/pitt_ads/images/1/156661.jpg,11,"Phone, TV and internet service providers",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/172382.png,data/raw/pitt_ads/images/10/172382.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+5/46215.jpg,data/raw/pitt_ads/images/5/46215.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+9/100229.jpg,data/raw/pitt_ads/images/9/100229.jpg,21,Games and toys,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/46819.jpg,data/raw/pitt_ads/images/9/46819.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/93061.jpg,data/raw/pitt_ads/images/1/93061.jpg,5,Pet food,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/177009.png,data/raw/pitt_ads/images/10/177009.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+1/67141.jpg,data/raw/pitt_ads/images/1/67141.jpg,4,"Seasoning, condiments, ketchup",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/10120.jpg,data/raw/pitt_ads/images/0/10120.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+4/158714.jpg,data/raw/pitt_ads/images/4/158714.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/11640.jpg,data/raw/pitt_ads/images/0/11640.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+0/33550.jpg,data/raw/pitt_ads/images/0/33550.jpg,6,Alcohol,alcohol,4,5,True,alcohol,substance,test
+10/170210.png,data/raw/pitt_ads/images/10/170210.png,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/58272.jpg,data/raw/pitt_ads/images/2/58272.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+10/172450.png,data/raw/pitt_ads/images/10/172450.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+0/10000.jpg,data/raw/pitt_ads/images/0/10000.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+6/131686.jpg,data/raw/pitt_ads/images/6/131686.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/109314.jpg,data/raw/pitt_ads/images/4/109314.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/124042.jpg,data/raw/pitt_ads/images/2/124042.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/10144.jpg,data/raw/pitt_ads/images/4/10144.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/149735.jpg,data/raw/pitt_ads/images/5/149735.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/1427.jpg,data/raw/pitt_ads/images/7/1427.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/133557.jpg,data/raw/pitt_ads/images/7/133557.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/69729.jpg,data/raw/pitt_ads/images/9/69729.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/11857.jpg,data/raw/pitt_ads/images/7/11857.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/123054.jpg,data/raw/pitt_ads/images/4/123054.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/173644.png,data/raw/pitt_ads/images/10/173644.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+0/83610.jpg,data/raw/pitt_ads/images/0/83610.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,2,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/163827.jpg,data/raw/pitt_ads/images/7/163827.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/11620.jpg,data/raw/pitt_ads/images/0/11620.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+1/149591.jpg,data/raw/pitt_ads/images/1/149591.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/175881.png,data/raw/pitt_ads/images/10/175881.png,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+6/163536.jpg,data/raw/pitt_ads/images/6/163536.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/163743.jpg,data/raw/pitt_ads/images/3/163743.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/143319.jpg,data/raw/pitt_ads/images/9/143319.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/152989.jpg,data/raw/pitt_ads/images/9/152989.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/48986.jpg,data/raw/pitt_ads/images/6/48986.jpg,13,Education,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/116483.jpg,data/raw/pitt_ads/images/3/116483.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+9/38069.jpg,data/raw/pitt_ads/images/9/38069.jpg,6,Alcohol,alcohol,1,3,True,alcohol,substance,test
+6/150846.jpg,data/raw/pitt_ads/images/6/150846.jpg,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/136935.jpg,data/raw/pitt_ads/images/5/136935.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/125689.jpg,data/raw/pitt_ads/images/9/125689.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/164858.jpg,data/raw/pitt_ads/images/8/164858.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/159324.jpg,data/raw/pitt_ads/images/4/159324.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/32393.jpg,data/raw/pitt_ads/images/3/32393.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/13313.jpg,data/raw/pitt_ads/images/3/13313.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/90214.jpg,data/raw/pitt_ads/images/4/90214.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+1/32641.jpg,data/raw/pitt_ads/images/1/32641.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/50576.jpg,data/raw/pitt_ads/images/6/50576.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/123075.jpg,data/raw/pitt_ads/images/5/123075.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/11702.jpg,data/raw/pitt_ads/images/2/11702.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/10289.jpg,data/raw/pitt_ads/images/9/10289.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/49751.jpg,data/raw/pitt_ads/images/1/49751.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/151504.jpg,data/raw/pitt_ads/images/4/151504.jpg,28,Shopping,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/157740.jpg,data/raw/pitt_ads/images/0/157740.jpg,19,Clothing and accessories,safe_or_irrelevant,3,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/175496.png,data/raw/pitt_ads/images/10/175496.png,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/142444.jpg,data/raw/pitt_ads/images/4/142444.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+6/95476.jpg,data/raw/pitt_ads/images/6/95476.jpg,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/135163.jpg,data/raw/pitt_ads/images/3/135163.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+7/41357.jpg,data/raw/pitt_ads/images/7/41357.jpg,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+3/38013.jpg,data/raw/pitt_ads/images/3/38013.jpg,38,Charities,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/115509.jpg,data/raw/pitt_ads/images/9/115509.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/13936.jpg,data/raw/pitt_ads/images/6/13936.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/156075.jpg,data/raw/pitt_ads/images/5/156075.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/64093.jpg,data/raw/pitt_ads/images/3/64093.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/36031.jpg,data/raw/pitt_ads/images/1/36031.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/61046.jpg,data/raw/pitt_ads/images/6/61046.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/116219.jpg,data/raw/pitt_ads/images/9/116219.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+1/116281.jpg,data/raw/pitt_ads/images/1/116281.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+6/76196.jpg,data/raw/pitt_ads/images/6/76196.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/37486.jpg,data/raw/pitt_ads/images/6/37486.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/7013.jpg,data/raw/pitt_ads/images/3/7013.jpg,27,Sports equipment and activities,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/107828.jpg,data/raw/pitt_ads/images/8/107828.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/106605.jpg,data/raw/pitt_ads/images/5/106605.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/129090.jpg,data/raw/pitt_ads/images/0/129090.jpg,10,Electronics,safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/122601.jpg,data/raw/pitt_ads/images/1/122601.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/10254.jpg,data/raw/pitt_ads/images/4/10254.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/159672.jpg,data/raw/pitt_ads/images/2/159672.jpg,21,Games and toys,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/147271.jpg,data/raw/pitt_ads/images/1/147271.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/30887.jpg,data/raw/pitt_ads/images/7/30887.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/92344.jpg,data/raw/pitt_ads/images/4/92344.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+10/172314.png,data/raw/pitt_ads/images/10/172314.png,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/70306.jpg,data/raw/pitt_ads/images/6/70306.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/116412.jpg,data/raw/pitt_ads/images/2/116412.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+2/164932.jpg,data/raw/pitt_ads/images/2/164932.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/87783.jpg,data/raw/pitt_ads/images/3/87783.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/10182.jpg,data/raw/pitt_ads/images/2/10182.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/172882.png,data/raw/pitt_ads/images/10/172882.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/171583.png,data/raw/pitt_ads/images/10/171583.png,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/170041.png,data/raw/pitt_ads/images/10/170041.png,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/172399.png,data/raw/pitt_ads/images/10/172399.png,7,"Coffee, tea",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/126086.jpg,data/raw/pitt_ads/images/6/126086.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/19450.jpg,data/raw/pitt_ads/images/0/19450.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/45516.jpg,data/raw/pitt_ads/images/6/45516.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/163653.jpg,data/raw/pitt_ads/images/3/163653.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/10112.jpg,data/raw/pitt_ads/images/2/10112.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/175421.png,data/raw/pitt_ads/images/10/175421.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+0/10470.jpg,data/raw/pitt_ads/images/0/10470.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+10/171291.png,data/raw/pitt_ads/images/10/171291.png,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/98301.jpg,data/raw/pitt_ads/images/1/98301.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/163628.jpg,data/raw/pitt_ads/images/8/163628.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/38737.jpg,data/raw/pitt_ads/images/7/38737.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/106791.jpg,data/raw/pitt_ads/images/1/106791.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/173559.png,data/raw/pitt_ads/images/10/173559.png,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/119946.jpg,data/raw/pitt_ads/images/6/119946.jpg,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/125316.jpg,data/raw/pitt_ads/images/6/125316.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/10111.jpg,data/raw/pitt_ads/images/1/10111.jpg,6,Alcohol,alcohol,1,3,True,alcohol,substance,test
+6/28996.jpg,data/raw/pitt_ads/images/6/28996.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,1,3,True,smoking_alcohol_abuse,substance,test
+10/173210.png,data/raw/pitt_ads/images/10/173210.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/564.jpg,data/raw/pitt_ads/images/4/564.jpg,19,Clothing and accessories,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/19012.jpg,data/raw/pitt_ads/images/2/19012.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/24435.jpg,data/raw/pitt_ads/images/5/24435.jpg,19,Clothing and accessories,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/172983.png,data/raw/pitt_ads/images/10/172983.png,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/172519.png,data/raw/pitt_ads/images/10/172519.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+8/116728.jpg,data/raw/pitt_ads/images/8/116728.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/158688.jpg,data/raw/pitt_ads/images/8/158688.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/175222.png,data/raw/pitt_ads/images/10/175222.png,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/130160.jpg,data/raw/pitt_ads/images/0/130160.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,5,True,smoking_alcohol_abuse,substance,test
+7/98407.jpg,data/raw/pitt_ads/images/7/98407.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+8/67138.jpg,data/raw/pitt_ads/images/8/67138.jpg,4,"Seasoning, condiments, ketchup",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/33298.jpg,data/raw/pitt_ads/images/8/33298.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/175852.png,data/raw/pitt_ads/images/10/175852.png,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+0/110140.jpg,data/raw/pitt_ads/images/0/110140.jpg,9,"Cars, automobiles",safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/112516.jpg,data/raw/pitt_ads/images/6/112516.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+4/6984.jpg,data/raw/pitt_ads/images/4/6984.jpg,27,Sports equipment and activities,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/26605.jpg,data/raw/pitt_ads/images/5/26605.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/88476.jpg,data/raw/pitt_ads/images/6/88476.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/71080.jpg,data/raw/pitt_ads/images/0/71080.jpg,10,Electronics,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/116542.jpg,data/raw/pitt_ads/images/2/116542.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+1/102111.jpg,data/raw/pitt_ads/images/1/102111.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/39074.jpg,data/raw/pitt_ads/images/4/39074.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/73340.jpg,data/raw/pitt_ads/images/0/73340.jpg,15,Software,safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/116304.jpg,data/raw/pitt_ads/images/4/116304.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+8/10278.jpg,data/raw/pitt_ads/images/8/10278.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/35968.jpg,data/raw/pitt_ads/images/8/35968.jpg,27,Sports equipment and activities,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/10491.jpg,data/raw/pitt_ads/images/1/10491.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/12586.jpg,data/raw/pitt_ads/images/6/12586.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/80222.jpg,data/raw/pitt_ads/images/2/80222.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/42538.jpg,data/raw/pitt_ads/images/8/42538.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/10438.jpg,data/raw/pitt_ads/images/8/10438.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/69465.jpg,data/raw/pitt_ads/images/5/69465.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/67017.jpg,data/raw/pitt_ads/images/7/67017.jpg,4,"Seasoning, condiments, ketchup",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/140848.jpg,data/raw/pitt_ads/images/8/140848.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/79885.jpg,data/raw/pitt_ads/images/5/79885.jpg,28,Shopping,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/163925.jpg,data/raw/pitt_ads/images/5/163925.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+4/140974.jpg,data/raw/pitt_ads/images/4/140974.jpg,15,Software,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/44475.jpg,data/raw/pitt_ads/images/5/44475.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/134755.jpg,data/raw/pitt_ads/images/5/134755.jpg,28,Shopping,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/116381.jpg,data/raw/pitt_ads/images/1/116381.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+10/170520.png,data/raw/pitt_ads/images/10/170520.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/133252.jpg,data/raw/pitt_ads/images/2/133252.jpg,27,Sports equipment and activities,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/10307.jpg,data/raw/pitt_ads/images/7/10307.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/116247.jpg,data/raw/pitt_ads/images/7/116247.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+2/45192.jpg,data/raw/pitt_ads/images/2/45192.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/14865.jpg,data/raw/pitt_ads/images/5/14865.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/99073.jpg,data/raw/pitt_ads/images/3/99073.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/45989.jpg,data/raw/pitt_ads/images/9/45989.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+2/149372.jpg,data/raw/pitt_ads/images/2/149372.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/100891.jpg,data/raw/pitt_ads/images/1/100891.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/45817.jpg,data/raw/pitt_ads/images/7/45817.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+3/22283.jpg,data/raw/pitt_ads/images/3/22283.jpg,28,Shopping,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/10529.jpg,data/raw/pitt_ads/images/9/10529.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/163635.jpg,data/raw/pitt_ads/images/5/163635.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+8/158948.jpg,data/raw/pitt_ads/images/8/158948.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/56841.jpg,data/raw/pitt_ads/images/1/56841.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/138176.jpg,data/raw/pitt_ads/images/6/138176.jpg,27,Sports equipment and activities,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/99229.jpg,data/raw/pitt_ads/images/9/99229.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/3255.jpg,data/raw/pitt_ads/images/5/3255.jpg,22,Cleaning products,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/6254.jpg,data/raw/pitt_ads/images/4/6254.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/49414.jpg,data/raw/pitt_ads/images/4/49414.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/41382.jpg,data/raw/pitt_ads/images/2/41382.jpg,35,Domestic violence,violence,3,3,True,violence,violence_or_abuse,test
+7/13487.jpg,data/raw/pitt_ads/images/7/13487.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/46020.jpg,data/raw/pitt_ads/images/0/46020.jpg,31,"Animal rights, animal abuse",animal_abuse,5,5,True,animal_abuse,violence_or_abuse,test
+1/156181.jpg,data/raw/pitt_ads/images/1/156181.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/123039.jpg,data/raw/pitt_ads/images/9/123039.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/66563.jpg,data/raw/pitt_ads/images/3/66563.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+0/105690.jpg,data/raw/pitt_ads/images/0/105690.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/59224.jpg,data/raw/pitt_ads/images/4/59224.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/142276.jpg,data/raw/pitt_ads/images/6/142276.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/164993.jpg,data/raw/pitt_ads/images/3/164993.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/52447.jpg,data/raw/pitt_ads/images/7/52447.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+4/32604.jpg,data/raw/pitt_ads/images/4/32604.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/41028.jpg,data/raw/pitt_ads/images/8/41028.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/97721.jpg,data/raw/pitt_ads/images/1/97721.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/138475.jpg,data/raw/pitt_ads/images/5/138475.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/147164.jpg,data/raw/pitt_ads/images/4/147164.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/135297.jpg,data/raw/pitt_ads/images/7/135297.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+6/116216.jpg,data/raw/pitt_ads/images/6/116216.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+3/164943.jpg,data/raw/pitt_ads/images/3/164943.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/173138.png,data/raw/pitt_ads/images/10/173138.png,35,Domestic violence,violence,3,3,True,violence,violence_or_abuse,test
+1/47751.jpg,data/raw/pitt_ads/images/1/47751.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/155366.jpg,data/raw/pitt_ads/images/6/155366.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/42944.jpg,data/raw/pitt_ads/images/4/42944.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/53970.jpg,data/raw/pitt_ads/images/0/53970.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/53464.jpg,data/raw/pitt_ads/images/4/53464.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/137350.jpg,data/raw/pitt_ads/images/0/137350.jpg,10,Electronics,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/135240.jpg,data/raw/pitt_ads/images/0/135240.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,5,5,True,smoking_alcohol_abuse,substance,test
+3/105133.jpg,data/raw/pitt_ads/images/3/105133.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/163735.jpg,data/raw/pitt_ads/images/5/163735.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+5/163475.jpg,data/raw/pitt_ads/images/5/163475.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+7/45767.jpg,data/raw/pitt_ads/images/7/45767.jpg,28,Shopping,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/126035.jpg,data/raw/pitt_ads/images/5/126035.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/30569.jpg,data/raw/pitt_ads/images/9/30569.jpg,28,Shopping,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/175060.png,data/raw/pitt_ads/images/10/175060.png,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/130914.jpg,data/raw/pitt_ads/images/4/130914.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/133403.jpg,data/raw/pitt_ads/images/3/133403.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/90028.jpg,data/raw/pitt_ads/images/8/90028.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/56607.jpg,data/raw/pitt_ads/images/7/56607.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+1/149601.jpg,data/raw/pitt_ads/images/1/149601.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/144815.jpg,data/raw/pitt_ads/images/5/144815.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/177423.png,data/raw/pitt_ads/images/10/177423.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+7/21367.jpg,data/raw/pitt_ads/images/7/21367.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/109778.jpg,data/raw/pitt_ads/images/8/109778.jpg,21,Games and toys,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/177997.png,data/raw/pitt_ads/images/10/177997.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+6/129366.jpg,data/raw/pitt_ads/images/6/129366.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/176757.png,data/raw/pitt_ads/images/10/176757.png,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/115915.jpg,data/raw/pitt_ads/images/5/115915.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/175189.png,data/raw/pitt_ads/images/10/175189.png,23,Home improvements and repairs,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/171851.png,data/raw/pitt_ads/images/10/171851.png,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/45833.jpg,data/raw/pitt_ads/images/3/45833.jpg,22,Cleaning products,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/8687.jpg,data/raw/pitt_ads/images/7/8687.jpg,6,Alcohol,alcohol,1,3,True,alcohol,substance,test
+10/177990.png,data/raw/pitt_ads/images/10/177990.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+6/44876.jpg,data/raw/pitt_ads/images/6/44876.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/58992.jpg,data/raw/pitt_ads/images/2/58992.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/140638.jpg,data/raw/pitt_ads/images/8/140638.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/163606.jpg,data/raw/pitt_ads/images/6/163606.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/81244.jpg,data/raw/pitt_ads/images/4/81244.jpg,24,Home appliances,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/135184.jpg,data/raw/pitt_ads/images/4/135184.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+8/17928.jpg,data/raw/pitt_ads/images/8/17928.jpg,36,"Self esteem, bullying, cyber bullying",bullying,2,3,True,bullying,bullying,test
+2/163882.jpg,data/raw/pitt_ads/images/2/163882.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/35410.jpg,data/raw/pitt_ads/images/0/35410.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,5,True,bullying,bullying,test
+7/41367.jpg,data/raw/pitt_ads/images/7/41367.jpg,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+9/164819.jpg,data/raw/pitt_ads/images/9/164819.jpg,28,Shopping,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/163545.jpg,data/raw/pitt_ads/images/5/163545.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+7/165047.jpg,data/raw/pitt_ads/images/7/165047.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/23410.jpg,data/raw/pitt_ads/images/0/23410.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/175937.png,data/raw/pitt_ads/images/10/175937.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+5/32465.jpg,data/raw/pitt_ads/images/5/32465.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/40716.jpg,data/raw/pitt_ads/images/6/40716.jpg,26,Media and arts,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/85229.jpg,data/raw/pitt_ads/images/9/85229.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/98353.jpg,data/raw/pitt_ads/images/3/98353.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/22918.jpg,data/raw/pitt_ads/images/8/22918.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+1/53491.jpg,data/raw/pitt_ads/images/1/53491.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/94364.jpg,data/raw/pitt_ads/images/4/94364.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/165187.jpg,data/raw/pitt_ads/images/7/165187.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+3/133323.jpg,data/raw/pitt_ads/images/3/133323.jpg,27,Sports equipment and activities,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/23711.jpg,data/raw/pitt_ads/images/1/23711.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/28208.jpg,data/raw/pitt_ads/images/8/28208.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/18602.jpg,data/raw/pitt_ads/images/2/18602.jpg,27,Sports equipment and activities,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/2776.jpg,data/raw/pitt_ads/images/6/2776.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/18384.jpg,data/raw/pitt_ads/images/4/18384.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+9/38679.jpg,data/raw/pitt_ads/images/9/38679.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/175808.png,data/raw/pitt_ads/images/10/175808.png,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+10/176582.png,data/raw/pitt_ads/images/10/176582.png,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/172113.png,data/raw/pitt_ads/images/10/172113.png,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/154644.jpg,data/raw/pitt_ads/images/4/154644.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+2/140032.jpg,data/raw/pitt_ads/images/2/140032.jpg,7,"Coffee, tea",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/87633.jpg,data/raw/pitt_ads/images/3/87633.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/176144.png,data/raw/pitt_ads/images/10/176144.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+3/34383.jpg,data/raw/pitt_ads/images/3/34383.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/163490.jpg,data/raw/pitt_ads/images/0/163490.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+4/112494.jpg,data/raw/pitt_ads/images/4/112494.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/10035.jpg,data/raw/pitt_ads/images/5/10035.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/58294.jpg,data/raw/pitt_ads/images/4/58294.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/54641.jpg,data/raw/pitt_ads/images/1/54641.jpg,28,Shopping,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/1394.jpg,data/raw/pitt_ads/images/4/1394.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/103059.jpg,data/raw/pitt_ads/images/9/103059.jpg,26,Media and arts,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/125548.jpg,data/raw/pitt_ads/images/8/125548.jpg,25,Vacation and travel,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/12180.jpg,data/raw/pitt_ads/images/0/12180.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+5/43675.jpg,data/raw/pitt_ads/images/5/43675.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/11682.jpg,data/raw/pitt_ads/images/2/11682.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/86941.jpg,data/raw/pitt_ads/images/1/86941.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/112628.jpg,data/raw/pitt_ads/images/8/112628.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+10/172275.png,data/raw/pitt_ads/images/10/172275.png,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/158668.jpg,data/raw/pitt_ads/images/8/158668.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/130330.jpg,data/raw/pitt_ads/images/0/130330.jpg,36,"Self esteem, bullying, cyber bullying",bullying,5,5,True,bullying,bullying,test
+10/176457.png,data/raw/pitt_ads/images/10/176457.png,7,"Coffee, tea",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/110114.jpg,data/raw/pitt_ads/images/4/110114.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/10070.jpg,data/raw/pitt_ads/images/0/10070.jpg,6,Alcohol,alcohol,3,5,True,alcohol,substance,test
+6/158676.jpg,data/raw/pitt_ads/images/6/158676.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/87287.jpg,data/raw/pitt_ads/images/7/87287.jpg,24,Home appliances,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/70818.jpg,data/raw/pitt_ads/images/8/70818.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/36269.jpg,data/raw/pitt_ads/images/9/36269.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/98703.jpg,data/raw/pitt_ads/images/3/98703.jpg,27,Sports equipment and activities,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/47670.jpg,data/raw/pitt_ads/images/0/47670.jpg,13,Education,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/41578.jpg,data/raw/pitt_ads/images/8/41578.jpg,35,Domestic violence,violence,3,3,True,violence,violence_or_abuse,test
+7/32367.jpg,data/raw/pitt_ads/images/7/32367.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/45971.jpg,data/raw/pitt_ads/images/1/45971.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+8/109918.jpg,data/raw/pitt_ads/images/8/109918.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/47240.jpg,data/raw/pitt_ads/images/0/47240.jpg,10,Electronics,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/41345.jpg,data/raw/pitt_ads/images/5/41345.jpg,35,Domestic violence,violence,3,3,True,violence,violence_or_abuse,test
+10/172469.png,data/raw/pitt_ads/images/10/172469.png,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+2/134992.jpg,data/raw/pitt_ads/images/2/134992.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+0/158870.jpg,data/raw/pitt_ads/images/0/158870.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+7/113627.jpg,data/raw/pitt_ads/images/7/113627.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/18150.jpg,data/raw/pitt_ads/images/0/18150.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,5,True,bullying,bullying,test
+4/158644.jpg,data/raw/pitt_ads/images/4/158644.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/4244.jpg,data/raw/pitt_ads/images/4/4244.jpg,28,Shopping,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/106006.jpg,data/raw/pitt_ads/images/6/106006.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+1/10131.jpg,data/raw/pitt_ads/images/1/10131.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/6822.jpg,data/raw/pitt_ads/images/2/6822.jpg,27,Sports equipment and activities,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/116410.jpg,data/raw/pitt_ads/images/0/116410.jpg,31,"Animal rights, animal abuse",animal_abuse,5,5,True,animal_abuse,violence_or_abuse,test
+7/156277.jpg,data/raw/pitt_ads/images/7/156277.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/66088.jpg,data/raw/pitt_ads/images/8/66088.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/143818.jpg,data/raw/pitt_ads/images/8/143818.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+1/45881.jpg,data/raw/pitt_ads/images/1/45881.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+10/170503.png,data/raw/pitt_ads/images/10/170503.png,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/165084.jpg,data/raw/pitt_ads/images/4/165084.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/122151.jpg,data/raw/pitt_ads/images/1/122151.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/46035.jpg,data/raw/pitt_ads/images/5/46035.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+8/121068.jpg,data/raw/pitt_ads/images/8/121068.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/27784.jpg,data/raw/pitt_ads/images/4/27784.jpg,28,Shopping,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/91993.jpg,data/raw/pitt_ads/images/3/91993.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/67090.jpg,data/raw/pitt_ads/images/0/67090.jpg,4,"Seasoning, condiments, ketchup",safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/174522.png,data/raw/pitt_ads/images/10/174522.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+10/174753.png,data/raw/pitt_ads/images/10/174753.png,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/34823.jpg,data/raw/pitt_ads/images/3/34823.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+2/158832.jpg,data/raw/pitt_ads/images/2/158832.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/18062.jpg,data/raw/pitt_ads/images/2/18062.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+10/177205.png,data/raw/pitt_ads/images/10/177205.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+6/87616.jpg,data/raw/pitt_ads/images/6/87616.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/97451.jpg,data/raw/pitt_ads/images/1/97451.jpg,31,"Animal rights, animal abuse",animal_abuse,1,3,True,animal_abuse,violence_or_abuse,test
+1/7031.jpg,data/raw/pitt_ads/images/1/7031.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+7/48337.jpg,data/raw/pitt_ads/images/7/48337.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/177584.png,data/raw/pitt_ads/images/10/177584.png,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/110998.jpg,data/raw/pitt_ads/images/8/110998.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/170073.png,data/raw/pitt_ads/images/10/170073.png,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/10390.jpg,data/raw/pitt_ads/images/0/10390.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+9/134939.jpg,data/raw/pitt_ads/images/9/134939.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+5/164925.jpg,data/raw/pitt_ads/images/5/164925.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+6/85706.jpg,data/raw/pitt_ads/images/6/85706.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/134960.jpg,data/raw/pitt_ads/images/0/134960.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,4,5,True,smoking_alcohol_abuse,substance,test
+2/158782.jpg,data/raw/pitt_ads/images/2/158782.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/26367.jpg,data/raw/pitt_ads/images/7/26367.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/11681.jpg,data/raw/pitt_ads/images/1/11681.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/32373.jpg,data/raw/pitt_ads/images/3/32373.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/158598.jpg,data/raw/pitt_ads/images/8/158598.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/18000.jpg,data/raw/pitt_ads/images/0/18000.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,5,True,bullying,bullying,test
+2/163682.jpg,data/raw/pitt_ads/images/2/163682.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/11883.jpg,data/raw/pitt_ads/images/3/11883.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+3/78113.jpg,data/raw/pitt_ads/images/3/78113.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/67546.jpg,data/raw/pitt_ads/images/6/67546.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/170940.png,data/raw/pitt_ads/images/10/170940.png,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/164938.jpg,data/raw/pitt_ads/images/8/164938.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/138025.jpg,data/raw/pitt_ads/images/5/138025.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/119230.jpg,data/raw/pitt_ads/images/0/119230.jpg,9,"Cars, automobiles",safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/133477.jpg,data/raw/pitt_ads/images/7/133477.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/12858.jpg,data/raw/pitt_ads/images/8/12858.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/105970.jpg,data/raw/pitt_ads/images/0/105970.jpg,6,Alcohol,alcohol,4,5,True,alcohol,substance,test
+9/13869.jpg,data/raw/pitt_ads/images/9/13869.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+6/67216.jpg,data/raw/pitt_ads/images/6/67216.jpg,4,"Seasoning, condiments, ketchup",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/174504.png,data/raw/pitt_ads/images/10/174504.png,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+0/158800.jpg,data/raw/pitt_ads/images/0/158800.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+5/24325.jpg,data/raw/pitt_ads/images/5/24325.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/45796.jpg,data/raw/pitt_ads/images/6/45796.jpg,31,"Animal rights, animal abuse",animal_abuse,1,3,True,animal_abuse,violence_or_abuse,test
+5/116255.jpg,data/raw/pitt_ads/images/5/116255.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+5/142645.jpg,data/raw/pitt_ads/images/5/142645.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/115331.jpg,data/raw/pitt_ads/images/1/115331.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+2/135102.jpg,data/raw/pitt_ads/images/2/135102.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+4/94994.jpg,data/raw/pitt_ads/images/4/94994.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/7235.jpg,data/raw/pitt_ads/images/5/7235.jpg,11,"Phone, TV and internet service providers",safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/35987.jpg,data/raw/pitt_ads/images/7/35987.jpg,28,Shopping,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/163654.jpg,data/raw/pitt_ads/images/4/163654.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/131466.jpg,data/raw/pitt_ads/images/6/131466.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/116941.jpg,data/raw/pitt_ads/images/1/116941.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/170964.png,data/raw/pitt_ads/images/10/170964.png,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+9/7319.jpg,data/raw/pitt_ads/images/9/7319.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+3/98403.jpg,data/raw/pitt_ads/images/3/98403.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/15509.jpg,data/raw/pitt_ads/images/9/15509.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/93956.jpg,data/raw/pitt_ads/images/6/93956.jpg,7,"Coffee, tea",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/32461.jpg,data/raw/pitt_ads/images/1/32461.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/3830.jpg,data/raw/pitt_ads/images/0/3830.jpg,28,Shopping,safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/170031.png,data/raw/pitt_ads/images/10/170031.png,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/13302.jpg,data/raw/pitt_ads/images/2/13302.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+2/32682.jpg,data/raw/pitt_ads/images/2/32682.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/37393.jpg,data/raw/pitt_ads/images/3/37393.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/170047.png,data/raw/pitt_ads/images/10/170047.png,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/162235.jpg,data/raw/pitt_ads/images/5/162235.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+3/55523.jpg,data/raw/pitt_ads/images/3/55523.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/134940.jpg,data/raw/pitt_ads/images/0/134940.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,5,5,True,smoking_alcohol_abuse,substance,test
+8/11758.jpg,data/raw/pitt_ads/images/8/11758.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+4/165284.jpg,data/raw/pitt_ads/images/4/165284.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+2/150672.jpg,data/raw/pitt_ads/images/2/150672.jpg,38,Charities,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/135066.jpg,data/raw/pitt_ads/images/6/135066.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+5/10475.jpg,data/raw/pitt_ads/images/5/10475.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/173594.png,data/raw/pitt_ads/images/10/173594.png,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/163872.jpg,data/raw/pitt_ads/images/2/163872.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/54576.jpg,data/raw/pitt_ads/images/6/54576.jpg,28,Shopping,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/32375.jpg,data/raw/pitt_ads/images/5/32375.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/100021.jpg,data/raw/pitt_ads/images/1/100021.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/65783.jpg,data/raw/pitt_ads/images/3/65783.jpg,28,Shopping,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/170115.png,data/raw/pitt_ads/images/10/170115.png,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/47859.jpg,data/raw/pitt_ads/images/9/47859.jpg,6,Alcohol,alcohol,1,3,True,alcohol,substance,test
+1/65441.jpg,data/raw/pitt_ads/images/1/65441.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/10193.jpg,data/raw/pitt_ads/images/3/10193.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/124613.jpg,data/raw/pitt_ads/images/3/124613.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/10530.jpg,data/raw/pitt_ads/images/0/10530.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+2/64912.jpg,data/raw/pitt_ads/images/2/64912.jpg,27,Sports equipment and activities,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/174615.png,data/raw/pitt_ads/images/10/174615.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/158280.jpg,data/raw/pitt_ads/images/0/158280.jpg,7,"Coffee, tea",safe_or_irrelevant,2,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/122542.jpg,data/raw/pitt_ads/images/2/122542.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/177976.png,data/raw/pitt_ads/images/10/177976.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+5/32515.jpg,data/raw/pitt_ads/images/5/32515.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/94060.jpg,data/raw/pitt_ads/images/0/94060.jpg,7,"Coffee, tea",safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/135279.jpg,data/raw/pitt_ads/images/9/135279.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+9/7099.jpg,data/raw/pitt_ads/images/9/7099.jpg,27,Sports equipment and activities,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/126127.jpg,data/raw/pitt_ads/images/7/126127.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/10342.jpg,data/raw/pitt_ads/images/2/10342.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/78600.jpg,data/raw/pitt_ads/images/0/78600.jpg,10,Electronics,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/112890.jpg,data/raw/pitt_ads/images/0/112890.jpg,10,Electronics,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/165248.jpg,data/raw/pitt_ads/images/8/165248.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/12392.jpg,data/raw/pitt_ads/images/2/12392.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/158783.jpg,data/raw/pitt_ads/images/3/158783.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/163524.jpg,data/raw/pitt_ads/images/4/163524.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/163709.jpg,data/raw/pitt_ads/images/9/163709.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/1364.jpg,data/raw/pitt_ads/images/4/1364.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/84482.jpg,data/raw/pitt_ads/images/2/84482.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/16430.jpg,data/raw/pitt_ads/images/0/16430.jpg,38,Charities,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/159047.jpg,data/raw/pitt_ads/images/7/159047.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/163703.jpg,data/raw/pitt_ads/images/3/163703.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/37744.jpg,data/raw/pitt_ads/images/4/37744.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/81736.jpg,data/raw/pitt_ads/images/6/81736.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/132980.jpg,data/raw/pitt_ads/images/0/132980.jpg,27,Sports equipment and activities,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/70931.jpg,data/raw/pitt_ads/images/1/70931.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/10021.jpg,data/raw/pitt_ads/images/1/10021.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/137193.jpg,data/raw/pitt_ads/images/3/137193.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/43590.jpg,data/raw/pitt_ads/images/0/43590.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/69507.jpg,data/raw/pitt_ads/images/7/69507.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/82698.jpg,data/raw/pitt_ads/images/8/82698.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/175392.png,data/raw/pitt_ads/images/10/175392.png,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/88549.jpg,data/raw/pitt_ads/images/9/88549.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/116499.jpg,data/raw/pitt_ads/images/9/116499.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+10/173048.png,data/raw/pitt_ads/images/10/173048.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/158679.jpg,data/raw/pitt_ads/images/9/158679.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/22937.jpg,data/raw/pitt_ads/images/7/22937.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/158554.jpg,data/raw/pitt_ads/images/4/158554.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/65979.jpg,data/raw/pitt_ads/images/9/65979.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/36196.jpg,data/raw/pitt_ads/images/6/36196.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/158639.jpg,data/raw/pitt_ads/images/9/158639.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/22965.jpg,data/raw/pitt_ads/images/5/22965.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/30343.jpg,data/raw/pitt_ads/images/3/30343.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/14047.jpg,data/raw/pitt_ads/images/7/14047.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+8/163508.jpg,data/raw/pitt_ads/images/8/163508.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/1053.jpg,data/raw/pitt_ads/images/3/1053.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/107666.jpg,data/raw/pitt_ads/images/6/107666.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/165095.jpg,data/raw/pitt_ads/images/5/165095.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+0/10340.jpg,data/raw/pitt_ads/images/0/10340.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+6/127696.jpg,data/raw/pitt_ads/images/6/127696.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+8/98658.jpg,data/raw/pitt_ads/images/8/98658.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/135038.jpg,data/raw/pitt_ads/images/8/135038.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+2/116512.jpg,data/raw/pitt_ads/images/2/116512.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+2/138652.jpg,data/raw/pitt_ads/images/2/138652.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/126507.jpg,data/raw/pitt_ads/images/7/126507.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+1/73551.jpg,data/raw/pitt_ads/images/1/73551.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/116199.jpg,data/raw/pitt_ads/images/9/116199.jpg,31,"Animal rights, animal abuse",animal_abuse,1,3,True,animal_abuse,violence_or_abuse,test
+10/176215.png,data/raw/pitt_ads/images/10/176215.png,28,Shopping,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/6599.jpg,data/raw/pitt_ads/images/9/6599.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/166292.jpg,data/raw/pitt_ads/images/2/166292.jpg,36,"Self esteem, bullying, cyber bullying",bullying,1,3,True,bullying,bullying,test
+1/135121.jpg,data/raw/pitt_ads/images/1/135121.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+0/163890.jpg,data/raw/pitt_ads/images/0/163890.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+9/122199.jpg,data/raw/pitt_ads/images/9/122199.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/122924.jpg,data/raw/pitt_ads/images/4/122924.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+8/13408.jpg,data/raw/pitt_ads/images/8/13408.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/172915.png,data/raw/pitt_ads/images/10/172915.png,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/27680.jpg,data/raw/pitt_ads/images/0/27680.jpg,9,"Cars, automobiles",safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/2479.jpg,data/raw/pitt_ads/images/9/2479.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/32397.jpg,data/raw/pitt_ads/images/7/32397.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/41426.jpg,data/raw/pitt_ads/images/6/41426.jpg,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+9/111569.jpg,data/raw/pitt_ads/images/9/111569.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/12243.jpg,data/raw/pitt_ads/images/3/12243.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/142936.jpg,data/raw/pitt_ads/images/6/142936.jpg,27,Sports equipment and activities,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/47749.jpg,data/raw/pitt_ads/images/9/47749.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/163645.jpg,data/raw/pitt_ads/images/5/163645.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+4/136644.jpg,data/raw/pitt_ads/images/4/136644.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/163598.jpg,data/raw/pitt_ads/images/8/163598.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/144954.jpg,data/raw/pitt_ads/images/4/144954.jpg,7,"Coffee, tea",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/78757.jpg,data/raw/pitt_ads/images/7/78757.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/134944.jpg,data/raw/pitt_ads/images/4/134944.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+10/177453.png,data/raw/pitt_ads/images/10/177453.png,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/85707.jpg,data/raw/pitt_ads/images/7/85707.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/119691.jpg,data/raw/pitt_ads/images/1/119691.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/174661.png,data/raw/pitt_ads/images/10/174661.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/54426.jpg,data/raw/pitt_ads/images/6/54426.jpg,28,Shopping,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/113648.jpg,data/raw/pitt_ads/images/8/113648.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/158847.jpg,data/raw/pitt_ads/images/7/158847.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/140535.jpg,data/raw/pitt_ads/images/5/140535.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/175279.png,data/raw/pitt_ads/images/10/175279.png,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+9/116369.jpg,data/raw/pitt_ads/images/9/116369.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+0/6600.jpg,data/raw/pitt_ads/images/0/6600.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/139477.jpg,data/raw/pitt_ads/images/7/139477.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/156873.jpg,data/raw/pitt_ads/images/3/156873.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/112952.jpg,data/raw/pitt_ads/images/2/112952.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/98466.jpg,data/raw/pitt_ads/images/6/98466.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+9/32719.jpg,data/raw/pitt_ads/images/9/32719.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/172867.png,data/raw/pitt_ads/images/10/172867.png,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/45815.jpg,data/raw/pitt_ads/images/5/45815.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+2/65262.jpg,data/raw/pitt_ads/images/2/65262.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/163886.jpg,data/raw/pitt_ads/images/6/163886.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/130189.jpg,data/raw/pitt_ads/images/9/130189.jpg,36,"Self esteem, bullying, cyber bullying",bullying,2,3,True,bullying,bullying,test
+10/176299.png,data/raw/pitt_ads/images/10/176299.png,35,Domestic violence,violence,3,3,True,violence,violence_or_abuse,test
+6/95656.jpg,data/raw/pitt_ads/images/6/95656.jpg,28,Shopping,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/158647.jpg,data/raw/pitt_ads/images/7/158647.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/162108.jpg,data/raw/pitt_ads/images/8/162108.jpg,24,Home appliances,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/10361.jpg,data/raw/pitt_ads/images/1/10361.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/10377.jpg,data/raw/pitt_ads/images/7/10377.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/135072.jpg,data/raw/pitt_ads/images/2/135072.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+3/163833.jpg,data/raw/pitt_ads/images/3/163833.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/174694.png,data/raw/pitt_ads/images/10/174694.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/76684.jpg,data/raw/pitt_ads/images/4/76684.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/10214.jpg,data/raw/pitt_ads/images/4/10214.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/98408.jpg,data/raw/pitt_ads/images/8/98408.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/10152.jpg,data/raw/pitt_ads/images/2/10152.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+8/163488.jpg,data/raw/pitt_ads/images/8/163488.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+5/137905.jpg,data/raw/pitt_ads/images/5/137905.jpg,21,Games and toys,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/98305.jpg,data/raw/pitt_ads/images/5/98305.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/174634.png,data/raw/pitt_ads/images/10/174634.png,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/58432.jpg,data/raw/pitt_ads/images/2/58432.jpg,27,Sports equipment and activities,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/34297.jpg,data/raw/pitt_ads/images/7/34297.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/76469.jpg,data/raw/pitt_ads/images/9/76469.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/55717.jpg,data/raw/pitt_ads/images/7/55717.jpg,13,Education,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/127865.jpg,data/raw/pitt_ads/images/5/127865.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+10/177582.png,data/raw/pitt_ads/images/10/177582.png,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/75179.jpg,data/raw/pitt_ads/images/9/75179.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/13947.jpg,data/raw/pitt_ads/images/7/13947.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+1/10431.jpg,data/raw/pitt_ads/images/1/10431.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/50878.jpg,data/raw/pitt_ads/images/8/50878.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/32476.jpg,data/raw/pitt_ads/images/6/32476.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+7/35037.jpg,data/raw/pitt_ads/images/7/35037.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+0/155880.jpg,data/raw/pitt_ads/images/0/155880.jpg,19,Clothing and accessories,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/143413.jpg,data/raw/pitt_ads/images/3/143413.jpg,28,Shopping,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/172255.png,data/raw/pitt_ads/images/10/172255.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+6/27286.jpg,data/raw/pitt_ads/images/6/27286.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/80561.jpg,data/raw/pitt_ads/images/1/80561.jpg,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+9/64139.jpg,data/raw/pitt_ads/images/9/64139.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/142976.jpg,data/raw/pitt_ads/images/6/142976.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+5/165355.jpg,data/raw/pitt_ads/images/5/165355.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+2/10512.jpg,data/raw/pitt_ads/images/2/10512.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/123015.jpg,data/raw/pitt_ads/images/5/123015.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/31356.jpg,data/raw/pitt_ads/images/6/31356.jpg,11,"Phone, TV and internet service providers",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/29079.jpg,data/raw/pitt_ads/images/9/29079.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+10/176974.png,data/raw/pitt_ads/images/10/176974.png,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/42586.jpg,data/raw/pitt_ads/images/6/42586.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/172633.png,data/raw/pitt_ads/images/10/172633.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/57795.jpg,data/raw/pitt_ads/images/5/57795.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/69440.jpg,data/raw/pitt_ads/images/0/69440.jpg,9,"Cars, automobiles",safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/73801.jpg,data/raw/pitt_ads/images/1/73801.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/157503.jpg,data/raw/pitt_ads/images/3/157503.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/170871.png,data/raw/pitt_ads/images/10/170871.png,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/18505.jpg,data/raw/pitt_ads/images/5/18505.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/38950.jpg,data/raw/pitt_ads/images/0/38950.jpg,19,Clothing and accessories,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/163498.jpg,data/raw/pitt_ads/images/8/163498.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/171896.png,data/raw/pitt_ads/images/10/171896.png,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/176753.png,data/raw/pitt_ads/images/10/176753.png,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+9/46259.jpg,data/raw/pitt_ads/images/9/46259.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+8/10048.jpg,data/raw/pitt_ads/images/8/10048.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/23736.jpg,data/raw/pitt_ads/images/6/23736.jpg,27,Sports equipment and activities,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/163648.jpg,data/raw/pitt_ads/images/8/163648.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/10337.jpg,data/raw/pitt_ads/images/7/10337.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/69580.jpg,data/raw/pitt_ads/images/0/69580.jpg,9,"Cars, automobiles",safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/52869.jpg,data/raw/pitt_ads/images/9/52869.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/165239.jpg,data/raw/pitt_ads/images/9/165239.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/10138.jpg,data/raw/pitt_ads/images/8/10138.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/71729.jpg,data/raw/pitt_ads/images/9/71729.jpg,36,"Self esteem, bullying, cyber bullying",bullying,2,3,True,bullying,bullying,test
+3/103593.jpg,data/raw/pitt_ads/images/3/103593.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/142249.jpg,data/raw/pitt_ads/images/9/142249.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/11169.jpg,data/raw/pitt_ads/images/9/11169.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/85061.jpg,data/raw/pitt_ads/images/1/85061.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/78188.jpg,data/raw/pitt_ads/images/8/78188.jpg,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/130406.jpg,data/raw/pitt_ads/images/6/130406.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+6/69406.jpg,data/raw/pitt_ads/images/6/69406.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/122688.jpg,data/raw/pitt_ads/images/8/122688.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/67633.jpg,data/raw/pitt_ads/images/3/67633.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+6/164216.jpg,data/raw/pitt_ads/images/6/164216.jpg,26,Media and arts,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/694.jpg,data/raw/pitt_ads/images/4/694.jpg,36,"Self esteem, bullying, cyber bullying",bullying,1,3,True,bullying,bullying,test
+4/71924.jpg,data/raw/pitt_ads/images/4/71924.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+2/10232.jpg,data/raw/pitt_ads/images/2/10232.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/130138.jpg,data/raw/pitt_ads/images/8/130138.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/142478.jpg,data/raw/pitt_ads/images/8/142478.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+6/159826.jpg,data/raw/pitt_ads/images/6/159826.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/10693.jpg,data/raw/pitt_ads/images/3/10693.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/87585.jpg,data/raw/pitt_ads/images/5/87585.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/95169.jpg,data/raw/pitt_ads/images/9/95169.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/158556.jpg,data/raw/pitt_ads/images/6/158556.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/55449.jpg,data/raw/pitt_ads/images/9/55449.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/164935.jpg,data/raw/pitt_ads/images/5/164935.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+2/10162.jpg,data/raw/pitt_ads/images/2/10162.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/15340.jpg,data/raw/pitt_ads/images/0/15340.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+10/171574.png,data/raw/pitt_ads/images/10/171574.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/45934.jpg,data/raw/pitt_ads/images/4/45934.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+5/156205.jpg,data/raw/pitt_ads/images/5/156205.jpg,24,Home appliances,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/74121.jpg,data/raw/pitt_ads/images/1/74121.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/23792.jpg,data/raw/pitt_ads/images/2/23792.jpg,6,Alcohol,alcohol,1,3,True,alcohol,substance,test
+0/164840.jpg,data/raw/pitt_ads/images/0/164840.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+9/163469.jpg,data/raw/pitt_ads/images/9/163469.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/80783.jpg,data/raw/pitt_ads/images/3/80783.jpg,4,"Seasoning, condiments, ketchup",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/13436.jpg,data/raw/pitt_ads/images/6/13436.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/130458.jpg,data/raw/pitt_ads/images/8/130458.jpg,36,"Self esteem, bullying, cyber bullying",bullying,2,3,True,bullying,bullying,test
+10/172268.png,data/raw/pitt_ads/images/10/172268.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+1/157511.jpg,data/raw/pitt_ads/images/1/157511.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/163717.jpg,data/raw/pitt_ads/images/7/163717.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/163557.jpg,data/raw/pitt_ads/images/7/163557.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/158821.jpg,data/raw/pitt_ads/images/1/158821.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/10364.jpg,data/raw/pitt_ads/images/4/10364.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/42877.jpg,data/raw/pitt_ads/images/7/42877.jpg,31,"Animal rights, animal abuse",animal_abuse,1,3,True,animal_abuse,violence_or_abuse,test
+4/165304.jpg,data/raw/pitt_ads/images/4/165304.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+6/116286.jpg,data/raw/pitt_ads/images/6/116286.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+8/55258.jpg,data/raw/pitt_ads/images/8/55258.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/139144.jpg,data/raw/pitt_ads/images/4/139144.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/122828.jpg,data/raw/pitt_ads/images/8/122828.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/155866.jpg,data/raw/pitt_ads/images/6/155866.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/170746.png,data/raw/pitt_ads/images/10/170746.png,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/108571.jpg,data/raw/pitt_ads/images/1/108571.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/18381.jpg,data/raw/pitt_ads/images/1/18381.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+3/41403.jpg,data/raw/pitt_ads/images/3/41403.jpg,36,"Self esteem, bullying, cyber bullying",bullying,2,3,True,bullying,bullying,test
+6/149366.jpg,data/raw/pitt_ads/images/6/149366.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/165336.jpg,data/raw/pitt_ads/images/6/165336.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/45827.jpg,data/raw/pitt_ads/images/7/45827.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+10/173749.png,data/raw/pitt_ads/images/10/173749.png,25,Vacation and travel,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/116389.jpg,data/raw/pitt_ads/images/9/116389.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+6/160716.jpg,data/raw/pitt_ads/images/6/160716.jpg,10,Electronics,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/162385.jpg,data/raw/pitt_ads/images/5/162385.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/177499.png,data/raw/pitt_ads/images/10/177499.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/80782.jpg,data/raw/pitt_ads/images/2/80782.jpg,4,"Seasoning, condiments, ketchup",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/68404.jpg,data/raw/pitt_ads/images/4/68404.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+8/11668.jpg,data/raw/pitt_ads/images/8/11668.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+9/65379.jpg,data/raw/pitt_ads/images/9/65379.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/177424.png,data/raw/pitt_ads/images/10/177424.png,36,"Self esteem, bullying, cyber bullying",bullying,1,3,True,bullying,bullying,test
+4/115944.jpg,data/raw/pitt_ads/images/4/115944.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/119618.jpg,data/raw/pitt_ads/images/8/119618.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/24116.jpg,data/raw/pitt_ads/images/6/24116.jpg,28,Shopping,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/15695.jpg,data/raw/pitt_ads/images/5/15695.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/141240.jpg,data/raw/pitt_ads/images/0/141240.jpg,19,Clothing and accessories,safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/116556.jpg,data/raw/pitt_ads/images/6/116556.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+4/109144.jpg,data/raw/pitt_ads/images/4/109144.jpg,9,"Cars, automobiles",safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/113229.jpg,data/raw/pitt_ads/images/9/113229.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/87984.jpg,data/raw/pitt_ads/images/4/87984.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/170216.png,data/raw/pitt_ads/images/10/170216.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+2/134982.jpg,data/raw/pitt_ads/images/2/134982.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+5/41405.jpg,data/raw/pitt_ads/images/5/41405.jpg,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+8/142238.jpg,data/raw/pitt_ads/images/8/142238.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/112068.jpg,data/raw/pitt_ads/images/8/112068.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/174294.png,data/raw/pitt_ads/images/10/174294.png,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/91944.jpg,data/raw/pitt_ads/images/4/91944.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/73377.jpg,data/raw/pitt_ads/images/7/73377.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/26219.jpg,data/raw/pitt_ads/images/9/26219.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/14459.jpg,data/raw/pitt_ads/images/9/14459.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+9/57499.jpg,data/raw/pitt_ads/images/9/57499.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/163604.jpg,data/raw/pitt_ads/images/4/163604.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/108135.jpg,data/raw/pitt_ads/images/5/108135.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/10062.jpg,data/raw/pitt_ads/images/2/10062.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/175083.png,data/raw/pitt_ads/images/10/175083.png,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/176623.png,data/raw/pitt_ads/images/10/176623.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+9/11989.jpg,data/raw/pitt_ads/images/9/11989.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/86023.jpg,data/raw/pitt_ads/images/3/86023.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/29787.jpg,data/raw/pitt_ads/images/7/29787.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/122730.jpg,data/raw/pitt_ads/images/0/122730.jpg,10,Electronics,safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/177367.png,data/raw/pitt_ads/images/10/177367.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/98670.jpg,data/raw/pitt_ads/images/0/98670.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/163554.jpg,data/raw/pitt_ads/images/4/163554.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/160049.jpg,data/raw/pitt_ads/images/9/160049.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/116324.jpg,data/raw/pitt_ads/images/4/116324.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+0/157310.jpg,data/raw/pitt_ads/images/0/157310.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+8/136968.jpg,data/raw/pitt_ads/images/8/136968.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/174939.png,data/raw/pitt_ads/images/10/174939.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/158589.jpg,data/raw/pitt_ads/images/9/158589.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/6986.jpg,data/raw/pitt_ads/images/6/6986.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+9/35489.jpg,data/raw/pitt_ads/images/9/35489.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+2/158732.jpg,data/raw/pitt_ads/images/2/158732.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/158649.jpg,data/raw/pitt_ads/images/9/158649.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/3480.jpg,data/raw/pitt_ads/images/0/3480.jpg,27,Sports equipment and activities,safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/90820.jpg,data/raw/pitt_ads/images/0/90820.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+0/48570.jpg,data/raw/pitt_ads/images/0/48570.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/173028.png,data/raw/pitt_ads/images/10/173028.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/171226.png,data/raw/pitt_ads/images/10/171226.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+3/98563.jpg,data/raw/pitt_ads/images/3/98563.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/47422.jpg,data/raw/pitt_ads/images/2/47422.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/160379.jpg,data/raw/pitt_ads/images/9/160379.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/176788.png,data/raw/pitt_ads/images/10/176788.png,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+7/58567.jpg,data/raw/pitt_ads/images/7/58567.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+1/106401.jpg,data/raw/pitt_ads/images/1/106401.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/116181.jpg,data/raw/pitt_ads/images/1/116181.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/12737.jpg,data/raw/pitt_ads/images/7/12737.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/116226.jpg,data/raw/pitt_ads/images/6/116226.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+5/94025.jpg,data/raw/pitt_ads/images/5/94025.jpg,7,"Coffee, tea",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/10315.jpg,data/raw/pitt_ads/images/5/10315.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/90638.jpg,data/raw/pitt_ads/images/8/90638.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/158846.jpg,data/raw/pitt_ads/images/6/158846.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/106487.jpg,data/raw/pitt_ads/images/7/106487.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/16407.jpg,data/raw/pitt_ads/images/7/16407.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/175332.png,data/raw/pitt_ads/images/10/175332.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+0/10420.jpg,data/raw/pitt_ads/images/0/10420.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+10/175285.png,data/raw/pitt_ads/images/10/175285.png,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/12570.jpg,data/raw/pitt_ads/images/0/12570.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+7/7137.jpg,data/raw/pitt_ads/images/7/7137.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+4/155394.jpg,data/raw/pitt_ads/images/4/155394.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/10260.jpg,data/raw/pitt_ads/images/0/10260.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+9/78699.jpg,data/raw/pitt_ads/images/9/78699.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/6209.jpg,data/raw/pitt_ads/images/9/6209.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/133983.jpg,data/raw/pitt_ads/images/3/133983.jpg,6,Alcohol,alcohol,1,3,True,alcohol,substance,test
+9/133579.jpg,data/raw/pitt_ads/images/9/133579.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/116319.jpg,data/raw/pitt_ads/images/9/116319.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+8/140808.jpg,data/raw/pitt_ads/images/8/140808.jpg,36,"Self esteem, bullying, cyber bullying",bullying,2,3,True,bullying,bullying,test
+6/11946.jpg,data/raw/pitt_ads/images/6/11946.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/107430.jpg,data/raw/pitt_ads/images/0/107430.jpg,9,"Cars, automobiles",safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/158684.jpg,data/raw/pitt_ads/images/4/158684.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/13020.jpg,data/raw/pitt_ads/images/0/13020.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/47275.jpg,data/raw/pitt_ads/images/5/47275.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/163916.jpg,data/raw/pitt_ads/images/6/163916.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/88762.jpg,data/raw/pitt_ads/images/2/88762.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/177717.png,data/raw/pitt_ads/images/10/177717.png,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+8/118018.jpg,data/raw/pitt_ads/images/8/118018.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/122589.jpg,data/raw/pitt_ads/images/9/122589.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/10096.jpg,data/raw/pitt_ads/images/6/10096.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/23904.jpg,data/raw/pitt_ads/images/4/23904.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/130144.jpg,data/raw/pitt_ads/images/4/130144.jpg,31,"Animal rights, animal abuse",animal_abuse,1,3,True,animal_abuse,violence_or_abuse,test
+6/164866.jpg,data/raw/pitt_ads/images/6/164866.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/77777.jpg,data/raw/pitt_ads/images/7/77777.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/41229.jpg,data/raw/pitt_ads/images/9/41229.jpg,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+10/176009.png,data/raw/pitt_ads/images/10/176009.png,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/141288.jpg,data/raw/pitt_ads/images/8/141288.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/94274.jpg,data/raw/pitt_ads/images/4/94274.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/162515.jpg,data/raw/pitt_ads/images/5/162515.jpg,36,"Self esteem, bullying, cyber bullying",bullying,1,3,True,bullying,bullying,test
+5/47225.jpg,data/raw/pitt_ads/images/5/47225.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/165243.jpg,data/raw/pitt_ads/images/3/165243.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/116358.jpg,data/raw/pitt_ads/images/8/116358.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+7/12027.jpg,data/raw/pitt_ads/images/7/12027.jpg,26,Media and arts,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/46006.jpg,data/raw/pitt_ads/images/6/46006.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+6/14206.jpg,data/raw/pitt_ads/images/6/14206.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/46061.jpg,data/raw/pitt_ads/images/1/46061.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+5/7765.jpg,data/raw/pitt_ads/images/5/7765.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/155878.jpg,data/raw/pitt_ads/images/8/155878.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/45828.jpg,data/raw/pitt_ads/images/8/45828.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+9/36649.jpg,data/raw/pitt_ads/images/9/36649.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/11792.jpg,data/raw/pitt_ads/images/2/11792.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/144290.jpg,data/raw/pitt_ads/images/0/144290.jpg,19,Clothing and accessories,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/33025.jpg,data/raw/pitt_ads/images/5/33025.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/131185.jpg,data/raw/pitt_ads/images/5/131185.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+4/71534.jpg,data/raw/pitt_ads/images/4/71534.jpg,26,Media and arts,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/141794.jpg,data/raw/pitt_ads/images/4/141794.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/93487.jpg,data/raw/pitt_ads/images/7/93487.jpg,28,Shopping,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/45183.jpg,data/raw/pitt_ads/images/3/45183.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/119335.jpg,data/raw/pitt_ads/images/5/119335.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/88743.jpg,data/raw/pitt_ads/images/3/88743.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/165354.jpg,data/raw/pitt_ads/images/4/165354.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/106705.jpg,data/raw/pitt_ads/images/5/106705.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/74207.jpg,data/raw/pitt_ads/images/7/74207.jpg,11,"Phone, TV and internet service providers",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/164865.jpg,data/raw/pitt_ads/images/5/164865.jpg,19,Clothing and accessories,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/73118.jpg,data/raw/pitt_ads/images/8/73118.jpg,36,"Self esteem, bullying, cyber bullying",bullying,2,3,True,bullying,bullying,test
+0/11870.jpg,data/raw/pitt_ads/images/0/11870.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+3/165343.jpg,data/raw/pitt_ads/images/3/165343.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/107685.jpg,data/raw/pitt_ads/images/5/107685.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/123445.jpg,data/raw/pitt_ads/images/5/123445.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/83458.jpg,data/raw/pitt_ads/images/8/83458.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/54517.jpg,data/raw/pitt_ads/images/7/54517.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/175211.png,data/raw/pitt_ads/images/10/175211.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/62779.jpg,data/raw/pitt_ads/images/9/62779.jpg,27,Sports equipment and activities,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/66617.jpg,data/raw/pitt_ads/images/7/66617.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+0/1290.jpg,data/raw/pitt_ads/images/0/1290.jpg,9,"Cars, automobiles",safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/172600.png,data/raw/pitt_ads/images/10/172600.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/11862.jpg,data/raw/pitt_ads/images/2/11862.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/116220.jpg,data/raw/pitt_ads/images/0/116220.jpg,31,"Animal rights, animal abuse",animal_abuse,5,5,True,animal_abuse,violence_or_abuse,test
+0/68690.jpg,data/raw/pitt_ads/images/0/68690.jpg,6,Alcohol,alcohol,3,5,True,alcohol,substance,test
+2/46552.jpg,data/raw/pitt_ads/images/2/46552.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/145512.jpg,data/raw/pitt_ads/images/2/145512.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/155466.jpg,data/raw/pitt_ads/images/6/155466.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+0/12980.jpg,data/raw/pitt_ads/images/0/12980.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+4/163484.jpg,data/raw/pitt_ads/images/4/163484.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/18848.jpg,data/raw/pitt_ads/images/8/18848.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/163736.jpg,data/raw/pitt_ads/images/6/163736.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/158917.jpg,data/raw/pitt_ads/images/7/158917.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/15789.jpg,data/raw/pitt_ads/images/9/15789.jpg,26,Media and arts,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/135119.jpg,data/raw/pitt_ads/images/9/135119.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+10/172208.png,data/raw/pitt_ads/images/10/172208.png,35,Domestic violence,violence,3,3,True,violence,violence_or_abuse,test
+8/78208.jpg,data/raw/pitt_ads/images/8/78208.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/134991.jpg,data/raw/pitt_ads/images/1/134991.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+2/89192.jpg,data/raw/pitt_ads/images/2/89192.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/102996.jpg,data/raw/pitt_ads/images/6/102996.jpg,28,Shopping,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/171380.png,data/raw/pitt_ads/images/10/171380.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+5/111065.jpg,data/raw/pitt_ads/images/5/111065.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/116267.jpg,data/raw/pitt_ads/images/7/116267.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+6/57336.jpg,data/raw/pitt_ads/images/6/57336.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/163127.jpg,data/raw/pitt_ads/images/7/163127.jpg,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/159909.jpg,data/raw/pitt_ads/images/9/159909.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/51433.jpg,data/raw/pitt_ads/images/3/51433.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/158805.jpg,data/raw/pitt_ads/images/5/158805.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+2/26112.jpg,data/raw/pitt_ads/images/2/26112.jpg,27,Sports equipment and activities,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/135295.jpg,data/raw/pitt_ads/images/5/135295.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+9/13089.jpg,data/raw/pitt_ads/images/9/13089.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/95177.jpg,data/raw/pitt_ads/images/7/95177.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/131284.jpg,data/raw/pitt_ads/images/4/131284.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/120871.jpg,data/raw/pitt_ads/images/1/120871.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/110909.jpg,data/raw/pitt_ads/images/9/110909.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/13300.jpg,data/raw/pitt_ads/images/0/13300.jpg,9,"Cars, automobiles",safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/46264.jpg,data/raw/pitt_ads/images/4/46264.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+9/2149.jpg,data/raw/pitt_ads/images/9/2149.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/170157.png,data/raw/pitt_ads/images/10/170157.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+4/158874.jpg,data/raw/pitt_ads/images/4/158874.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/116348.jpg,data/raw/pitt_ads/images/8/116348.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+6/59896.jpg,data/raw/pitt_ads/images/6/59896.jpg,6,Alcohol,alcohol,1,3,True,alcohol,substance,test
+7/150017.jpg,data/raw/pitt_ads/images/7/150017.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/115843.jpg,data/raw/pitt_ads/images/3/115843.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+6/24826.jpg,data/raw/pitt_ads/images/6/24826.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/175258.png,data/raw/pitt_ads/images/10/175258.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/18339.jpg,data/raw/pitt_ads/images/9/18339.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+7/10357.jpg,data/raw/pitt_ads/images/7/10357.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/125688.jpg,data/raw/pitt_ads/images/8/125688.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/158615.jpg,data/raw/pitt_ads/images/5/158615.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/176452.png,data/raw/pitt_ads/images/10/176452.png,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+2/11532.jpg,data/raw/pitt_ads/images/2/11532.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/12325.jpg,data/raw/pitt_ads/images/5/12325.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+0/41240.jpg,data/raw/pitt_ads/images/0/41240.jpg,35,Domestic violence,violence,5,5,True,violence,violence_or_abuse,test
+8/118928.jpg,data/raw/pitt_ads/images/8/118928.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/158928.jpg,data/raw/pitt_ads/images/8/158928.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/170813.png,data/raw/pitt_ads/images/10/170813.png,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/32418.jpg,data/raw/pitt_ads/images/8/32418.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/100157.jpg,data/raw/pitt_ads/images/7/100157.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/172683.png,data/raw/pitt_ads/images/10/172683.png,1,"Restaurants, cafe, fast food",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/135290.jpg,data/raw/pitt_ads/images/0/135290.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,4,5,True,smoking_alcohol_abuse,substance,test
+2/10452.jpg,data/raw/pitt_ads/images/2/10452.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/164343.jpg,data/raw/pitt_ads/images/3/164343.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/119968.jpg,data/raw/pitt_ads/images/8/119968.jpg,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/125728.jpg,data/raw/pitt_ads/images/8/125728.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/131193.jpg,data/raw/pitt_ads/images/3/131193.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/11245.jpg,data/raw/pitt_ads/images/5/11245.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/42999.jpg,data/raw/pitt_ads/images/9/42999.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/142032.jpg,data/raw/pitt_ads/images/2/142032.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/101159.jpg,data/raw/pitt_ads/images/9/101159.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/4084.jpg,data/raw/pitt_ads/images/4/4084.jpg,26,Media and arts,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/90688.jpg,data/raw/pitt_ads/images/8/90688.jpg,26,Media and arts,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/10019.jpg,data/raw/pitt_ads/images/9/10019.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/142844.jpg,data/raw/pitt_ads/images/4/142844.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/10008.jpg,data/raw/pitt_ads/images/8/10008.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/10127.jpg,data/raw/pitt_ads/images/7/10127.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+8/163968.jpg,data/raw/pitt_ads/images/8/163968.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/57488.jpg,data/raw/pitt_ads/images/8/57488.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/177697.png,data/raw/pitt_ads/images/10/177697.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+2/48572.jpg,data/raw/pitt_ads/images/2/48572.jpg,4,"Seasoning, condiments, ketchup",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/30102.jpg,data/raw/pitt_ads/images/2/30102.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+0/158820.jpg,data/raw/pitt_ads/images/0/158820.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+9/14069.jpg,data/raw/pitt_ads/images/9/14069.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+7/11137.jpg,data/raw/pitt_ads/images/7/11137.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/164850.jpg,data/raw/pitt_ads/images/0/164850.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+9/116409.jpg,data/raw/pitt_ads/images/9/116409.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+3/98423.jpg,data/raw/pitt_ads/images/3/98423.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/41889.jpg,data/raw/pitt_ads/images/9/41889.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/134044.jpg,data/raw/pitt_ads/images/4/134044.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+9/11889.jpg,data/raw/pitt_ads/images/9/11889.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/20282.jpg,data/raw/pitt_ads/images/2/20282.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/34278.jpg,data/raw/pitt_ads/images/8/34278.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/4155.jpg,data/raw/pitt_ads/images/5/4155.jpg,28,Shopping,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/113205.jpg,data/raw/pitt_ads/images/5/113205.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/134033.jpg,data/raw/pitt_ads/images/3/134033.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+1/34261.jpg,data/raw/pitt_ads/images/1/34261.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/21229.jpg,data/raw/pitt_ads/images/9/21229.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+4/17674.jpg,data/raw/pitt_ads/images/4/17674.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+10/173614.png,data/raw/pitt_ads/images/10/173614.png,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/116205.jpg,data/raw/pitt_ads/images/5/116205.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+10/173333.png,data/raw/pitt_ads/images/10/173333.png,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/6849.jpg,data/raw/pitt_ads/images/9/6849.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/45561.jpg,data/raw/pitt_ads/images/1/45561.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/23359.jpg,data/raw/pitt_ads/images/9/23359.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/18006.jpg,data/raw/pitt_ads/images/6/18006.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+9/116009.jpg,data/raw/pitt_ads/images/9/116009.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/163908.jpg,data/raw/pitt_ads/images/8/163908.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/174379.png,data/raw/pitt_ads/images/10/174379.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+9/92199.jpg,data/raw/pitt_ads/images/9/92199.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/48507.jpg,data/raw/pitt_ads/images/7/48507.jpg,28,Shopping,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/125551.jpg,data/raw/pitt_ads/images/1/125551.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/165110.jpg,data/raw/pitt_ads/images/0/165110.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+0/158700.jpg,data/raw/pitt_ads/images/0/158700.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+10/175349.png,data/raw/pitt_ads/images/10/175349.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/11641.jpg,data/raw/pitt_ads/images/1/11641.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/171972.png,data/raw/pitt_ads/images/10/171972.png,36,"Self esteem, bullying, cyber bullying",bullying,2,3,True,bullying,bullying,test
+7/118117.jpg,data/raw/pitt_ads/images/7/118117.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/144843.jpg,data/raw/pitt_ads/images/3/144843.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/163522.jpg,data/raw/pitt_ads/images/2/163522.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/92469.jpg,data/raw/pitt_ads/images/9/92469.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/150.jpg,data/raw/pitt_ads/images/0/150.jpg,10,Electronics,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/105803.jpg,data/raw/pitt_ads/images/3/105803.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/127631.jpg,data/raw/pitt_ads/images/1/127631.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/125516.jpg,data/raw/pitt_ads/images/6/125516.jpg,23,Home improvements and repairs,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/14003.jpg,data/raw/pitt_ads/images/3/14003.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+1/124361.jpg,data/raw/pitt_ads/images/1/124361.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/163860.jpg,data/raw/pitt_ads/images/0/163860.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+7/40407.jpg,data/raw/pitt_ads/images/7/40407.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+3/10073.jpg,data/raw/pitt_ads/images/3/10073.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/171313.png,data/raw/pitt_ads/images/10/171313.png,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/46019.jpg,data/raw/pitt_ads/images/9/46019.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+8/71278.jpg,data/raw/pitt_ads/images/8/71278.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/143410.jpg,data/raw/pitt_ads/images/0/143410.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/177501.png,data/raw/pitt_ads/images/10/177501.png,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+3/14503.jpg,data/raw/pitt_ads/images/3/14503.jpg,6,Alcohol,alcohol,1,3,True,alcohol,substance,test
+6/138926.jpg,data/raw/pitt_ads/images/6/138926.jpg,11,"Phone, TV and internet service providers",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/116408.jpg,data/raw/pitt_ads/images/8/116408.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+10/175661.png,data/raw/pitt_ads/images/10/175661.png,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+2/10122.jpg,data/raw/pitt_ads/images/2/10122.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/163999.jpg,data/raw/pitt_ads/images/9/163999.jpg,26,Media and arts,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/47994.jpg,data/raw/pitt_ads/images/4/47994.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/171638.png,data/raw/pitt_ads/images/10/171638.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+10/177684.png,data/raw/pitt_ads/images/10/177684.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+8/103628.jpg,data/raw/pitt_ads/images/8/103628.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+5/133675.jpg,data/raw/pitt_ads/images/5/133675.jpg,25,Vacation and travel,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/38350.jpg,data/raw/pitt_ads/images/0/38350.jpg,25,Vacation and travel,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/3229.jpg,data/raw/pitt_ads/images/9/3229.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+2/165312.jpg,data/raw/pitt_ads/images/2/165312.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/9996.jpg,data/raw/pitt_ads/images/6/9996.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/110112.jpg,data/raw/pitt_ads/images/2/110112.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/116200.jpg,data/raw/pitt_ads/images/0/116200.jpg,31,"Animal rights, animal abuse",animal_abuse,5,5,True,animal_abuse,violence_or_abuse,test
+2/68842.jpg,data/raw/pitt_ads/images/2/68842.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/13365.jpg,data/raw/pitt_ads/images/5/13365.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/164834.jpg,data/raw/pitt_ads/images/4/164834.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/61843.jpg,data/raw/pitt_ads/images/3/61843.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/99959.jpg,data/raw/pitt_ads/images/9/99959.jpg,21,Games and toys,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/49383.jpg,data/raw/pitt_ads/images/3/49383.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/108537.jpg,data/raw/pitt_ads/images/7/108537.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/89293.jpg,data/raw/pitt_ads/images/3/89293.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/112459.jpg,data/raw/pitt_ads/images/9/112459.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+7/98707.jpg,data/raw/pitt_ads/images/7/98707.jpg,23,Home improvements and repairs,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/27312.jpg,data/raw/pitt_ads/images/2/27312.jpg,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/18814.jpg,data/raw/pitt_ads/images/4/18814.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/2096.jpg,data/raw/pitt_ads/images/6/2096.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/20593.jpg,data/raw/pitt_ads/images/3/20593.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/95440.jpg,data/raw/pitt_ads/images/0/95440.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+4/10394.jpg,data/raw/pitt_ads/images/4/10394.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/111442.jpg,data/raw/pitt_ads/images/2/111442.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/172595.png,data/raw/pitt_ads/images/10/172595.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+0/111300.jpg,data/raw/pitt_ads/images/0/111300.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/176711.png,data/raw/pitt_ads/images/10/176711.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/65085.jpg,data/raw/pitt_ads/images/5/65085.jpg,22,Cleaning products,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/171813.png,data/raw/pitt_ads/images/10/171813.png,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/58352.jpg,data/raw/pitt_ads/images/2/58352.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/68629.jpg,data/raw/pitt_ads/images/9/68629.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+7/164907.jpg,data/raw/pitt_ads/images/7/164907.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/17209.jpg,data/raw/pitt_ads/images/9/17209.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+10/171063.png,data/raw/pitt_ads/images/10/171063.png,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+8/13238.jpg,data/raw/pitt_ads/images/8/13238.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,1,3,True,smoking_alcohol_abuse,substance,test
+6/135016.jpg,data/raw/pitt_ads/images/6/135016.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+1/14481.jpg,data/raw/pitt_ads/images/1/14481.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/116454.jpg,data/raw/pitt_ads/images/4/116454.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+7/9987.jpg,data/raw/pitt_ads/images/7/9987.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+4/97304.jpg,data/raw/pitt_ads/images/4/97304.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/111267.jpg,data/raw/pitt_ads/images/7/111267.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+8/138828.jpg,data/raw/pitt_ads/images/8/138828.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/36703.jpg,data/raw/pitt_ads/images/3/36703.jpg,25,Vacation and travel,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/57011.jpg,data/raw/pitt_ads/images/1/57011.jpg,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+7/32877.jpg,data/raw/pitt_ads/images/7/32877.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/9302.jpg,data/raw/pitt_ads/images/2/9302.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/10526.jpg,data/raw/pitt_ads/images/6/10526.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+1/12581.jpg,data/raw/pitt_ads/images/1/12581.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/176264.png,data/raw/pitt_ads/images/10/176264.png,36,"Self esteem, bullying, cyber bullying",bullying,1,3,True,bullying,bullying,test
+10/171065.png,data/raw/pitt_ads/images/10/171065.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+9/163799.jpg,data/raw/pitt_ads/images/9/163799.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/105219.jpg,data/raw/pitt_ads/images/9/105219.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,1,3,True,smoking_alcohol_abuse,substance,test
+1/10331.jpg,data/raw/pitt_ads/images/1/10331.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/158795.jpg,data/raw/pitt_ads/images/5/158795.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+6/45946.jpg,data/raw/pitt_ads/images/6/45946.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+1/1551.jpg,data/raw/pitt_ads/images/1/1551.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/94310.jpg,data/raw/pitt_ads/images/0/94310.jpg,7,"Coffee, tea",safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/105793.jpg,data/raw/pitt_ads/images/3/105793.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/2546.jpg,data/raw/pitt_ads/images/6/2546.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/130362.jpg,data/raw/pitt_ads/images/2/130362.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+0/61930.jpg,data/raw/pitt_ads/images/0/61930.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/12036.jpg,data/raw/pitt_ads/images/6/12036.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+5/93515.jpg,data/raw/pitt_ads/images/5/93515.jpg,27,Sports equipment and activities,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/163507.jpg,data/raw/pitt_ads/images/7/163507.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/130495.jpg,data/raw/pitt_ads/images/5/130495.jpg,36,"Self esteem, bullying, cyber bullying",bullying,1,3,True,bullying,bullying,test
+2/31862.jpg,data/raw/pitt_ads/images/2/31862.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/135210.jpg,data/raw/pitt_ads/images/0/135210.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,5,5,True,smoking_alcohol_abuse,substance,test
+0/51810.jpg,data/raw/pitt_ads/images/0/51810.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/11666.jpg,data/raw/pitt_ads/images/6/11666.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/106921.jpg,data/raw/pitt_ads/images/1/106921.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/158677.jpg,data/raw/pitt_ads/images/7/158677.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/27736.jpg,data/raw/pitt_ads/images/6/27736.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/116386.jpg,data/raw/pitt_ads/images/6/116386.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+7/10227.jpg,data/raw/pitt_ads/images/7/10227.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+6/77996.jpg,data/raw/pitt_ads/images/6/77996.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/144855.jpg,data/raw/pitt_ads/images/5/144855.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/66336.jpg,data/raw/pitt_ads/images/6/66336.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+4/22294.jpg,data/raw/pitt_ads/images/4/22294.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/130444.jpg,data/raw/pitt_ads/images/4/130444.jpg,36,"Self esteem, bullying, cyber bullying",bullying,2,3,True,bullying,bullying,test
+8/38868.jpg,data/raw/pitt_ads/images/8/38868.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/175338.png,data/raw/pitt_ads/images/10/175338.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/170284.png,data/raw/pitt_ads/images/10/170284.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/158916.jpg,data/raw/pitt_ads/images/6/158916.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/160035.jpg,data/raw/pitt_ads/images/5/160035.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/170101.png,data/raw/pitt_ads/images/10/170101.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+9/12559.jpg,data/raw/pitt_ads/images/9/12559.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+2/10802.jpg,data/raw/pitt_ads/images/2/10802.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/103233.jpg,data/raw/pitt_ads/images/3/103233.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+5/105845.jpg,data/raw/pitt_ads/images/5/105845.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/45963.jpg,data/raw/pitt_ads/images/3/45963.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+4/116364.jpg,data/raw/pitt_ads/images/4/116364.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+1/147351.jpg,data/raw/pitt_ads/images/1/147351.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/94479.jpg,data/raw/pitt_ads/images/9/94479.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/163756.jpg,data/raw/pitt_ads/images/6/163756.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/141779.jpg,data/raw/pitt_ads/images/9/141779.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+0/10100.jpg,data/raw/pitt_ads/images/0/10100.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+5/9985.jpg,data/raw/pitt_ads/images/5/9985.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+7/89057.jpg,data/raw/pitt_ads/images/7/89057.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/10010.jpg,data/raw/pitt_ads/images/0/10010.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+10/176890.png,data/raw/pitt_ads/images/10/176890.png,35,Domestic violence,violence,3,3,True,violence,violence_or_abuse,test
+9/25959.jpg,data/raw/pitt_ads/images/9/25959.jpg,22,Cleaning products,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/172997.png,data/raw/pitt_ads/images/10/172997.png,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/158618.jpg,data/raw/pitt_ads/images/8/158618.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/134971.jpg,data/raw/pitt_ads/images/1/134971.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+5/163835.jpg,data/raw/pitt_ads/images/5/163835.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/163870.jpg,data/raw/pitt_ads/images/0/163870.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+5/135285.jpg,data/raw/pitt_ads/images/5/135285.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+1/26451.jpg,data/raw/pitt_ads/images/1/26451.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/175415.png,data/raw/pitt_ads/images/10/175415.png,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/33294.jpg,data/raw/pitt_ads/images/4/33294.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/71966.jpg,data/raw/pitt_ads/images/6/71966.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+10/172861.png,data/raw/pitt_ads/images/10/172861.png,10,Electronics,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/177971.png,data/raw/pitt_ads/images/10/177971.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+1/40951.jpg,data/raw/pitt_ads/images/1/40951.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/5825.jpg,data/raw/pitt_ads/images/5/5825.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/171089.png,data/raw/pitt_ads/images/10/171089.png,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/173225.png,data/raw/pitt_ads/images/10/173225.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/73259.jpg,data/raw/pitt_ads/images/9/73259.jpg,15,Software,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/171495.png,data/raw/pitt_ads/images/10/171495.png,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/98439.jpg,data/raw/pitt_ads/images/9/98439.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/49513.jpg,data/raw/pitt_ads/images/3/49513.jpg,27,Sports equipment and activities,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/121396.jpg,data/raw/pitt_ads/images/6/121396.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/25626.jpg,data/raw/pitt_ads/images/6/25626.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/135948.jpg,data/raw/pitt_ads/images/8/135948.jpg,27,Sports equipment and activities,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/125754.jpg,data/raw/pitt_ads/images/4/125754.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/103292.jpg,data/raw/pitt_ads/images/2/103292.jpg,36,"Self esteem, bullying, cyber bullying",bullying,1,3,True,bullying,bullying,test
+0/138570.jpg,data/raw/pitt_ads/images/0/138570.jpg,19,Clothing and accessories,safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/94611.jpg,data/raw/pitt_ads/images/1/94611.jpg,26,Media and arts,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/165587.jpg,data/raw/pitt_ads/images/7/165587.jpg,6,Alcohol,alcohol,1,3,True,alcohol,substance,test
+5/116395.jpg,data/raw/pitt_ads/images/5/116395.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+1/141731.jpg,data/raw/pitt_ads/images/1/141731.jpg,15,Software,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/170927.png,data/raw/pitt_ads/images/10/170927.png,7,"Coffee, tea",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/116568.jpg,data/raw/pitt_ads/images/8/116568.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+3/105523.jpg,data/raw/pitt_ads/images/3/105523.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/148135.jpg,data/raw/pitt_ads/images/5/148135.jpg,26,Media and arts,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/10504.jpg,data/raw/pitt_ads/images/4/10504.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/163702.jpg,data/raw/pitt_ads/images/2/163702.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/46132.jpg,data/raw/pitt_ads/images/2/46132.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+3/10283.jpg,data/raw/pitt_ads/images/3/10283.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+10/177953.png,data/raw/pitt_ads/images/10/177953.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+10/175454.png,data/raw/pitt_ads/images/10/175454.png,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/164989.jpg,data/raw/pitt_ads/images/9/164989.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/44657.jpg,data/raw/pitt_ads/images/7/44657.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/138470.jpg,data/raw/pitt_ads/images/0/138470.jpg,19,Clothing and accessories,safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/10179.jpg,data/raw/pitt_ads/images/9/10179.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/116223.jpg,data/raw/pitt_ads/images/3/116223.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+9/115179.jpg,data/raw/pitt_ads/images/9/115179.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/24909.jpg,data/raw/pitt_ads/images/9/24909.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/76464.jpg,data/raw/pitt_ads/images/4/76464.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/9826.jpg,data/raw/pitt_ads/images/6/9826.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/163495.jpg,data/raw/pitt_ads/images/5/163495.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+4/32674.jpg,data/raw/pitt_ads/images/4/32674.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/172893.png,data/raw/pitt_ads/images/10/172893.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+4/6294.jpg,data/raw/pitt_ads/images/4/6294.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/106796.jpg,data/raw/pitt_ads/images/6/106796.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/116507.jpg,data/raw/pitt_ads/images/7/116507.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+7/49587.jpg,data/raw/pitt_ads/images/7/49587.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/84359.jpg,data/raw/pitt_ads/images/9/84359.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/92994.jpg,data/raw/pitt_ads/images/4/92994.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/173041.png,data/raw/pitt_ads/images/10/173041.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+7/86777.jpg,data/raw/pitt_ads/images/7/86777.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+3/59183.jpg,data/raw/pitt_ads/images/3/59183.jpg,28,Shopping,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/10415.jpg,data/raw/pitt_ads/images/5/10415.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/143545.jpg,data/raw/pitt_ads/images/5/143545.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+10/173420.png,data/raw/pitt_ads/images/10/173420.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/84499.jpg,data/raw/pitt_ads/images/9/84499.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/488.jpg,data/raw/pitt_ads/images/8/488.jpg,25,Vacation and travel,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/176297.png,data/raw/pitt_ads/images/10/176297.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+0/21290.jpg,data/raw/pitt_ads/images/0/21290.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/173457.png,data/raw/pitt_ads/images/10/173457.png,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/163527.jpg,data/raw/pitt_ads/images/7/163527.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/41316.jpg,data/raw/pitt_ads/images/6/41316.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+9/163779.jpg,data/raw/pitt_ads/images/9/163779.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/30286.jpg,data/raw/pitt_ads/images/6/30286.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/41627.jpg,data/raw/pitt_ads/images/7/41627.jpg,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+3/163683.jpg,data/raw/pitt_ads/images/3/163683.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/163958.jpg,data/raw/pitt_ads/images/8/163958.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/165302.jpg,data/raw/pitt_ads/images/2/165302.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/74307.jpg,data/raw/pitt_ads/images/7/74307.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/21255.jpg,data/raw/pitt_ads/images/5/21255.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+9/123979.jpg,data/raw/pitt_ads/images/9/123979.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/136504.jpg,data/raw/pitt_ads/images/4/136504.jpg,27,Sports equipment and activities,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/20419.jpg,data/raw/pitt_ads/images/9/20419.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/4784.jpg,data/raw/pitt_ads/images/4/4784.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/162378.jpg,data/raw/pitt_ads/images/8/162378.jpg,24,Home appliances,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/18196.jpg,data/raw/pitt_ads/images/6/18196.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/66761.jpg,data/raw/pitt_ads/images/1/66761.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,1,3,True,smoking_alcohol_abuse,substance,test
+3/108143.jpg,data/raw/pitt_ads/images/3/108143.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/81842.jpg,data/raw/pitt_ads/images/2/81842.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/134486.jpg,data/raw/pitt_ads/images/6/134486.jpg,26,Media and arts,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/52463.jpg,data/raw/pitt_ads/images/3/52463.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+10/176542.png,data/raw/pitt_ads/images/10/176542.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+8/148728.jpg,data/raw/pitt_ads/images/8/148728.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/14240.jpg,data/raw/pitt_ads/images/0/14240.jpg,21,Games and toys,safe_or_irrelevant,4,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/161631.jpg,data/raw/pitt_ads/images/1/161631.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/18346.jpg,data/raw/pitt_ads/images/6/18346.jpg,36,"Self esteem, bullying, cyber bullying",bullying,2,3,True,bullying,bullying,test
+1/48391.jpg,data/raw/pitt_ads/images/1/48391.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+6/163866.jpg,data/raw/pitt_ads/images/6/163866.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/41585.jpg,data/raw/pitt_ads/images/5/41585.jpg,35,Domestic violence,violence,3,3,True,violence,violence_or_abuse,test
+6/143706.jpg,data/raw/pitt_ads/images/6/143706.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/62755.jpg,data/raw/pitt_ads/images/5/62755.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+5/10435.jpg,data/raw/pitt_ads/images/5/10435.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+5/32405.jpg,data/raw/pitt_ads/images/5/32405.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/174244.png,data/raw/pitt_ads/images/10/174244.png,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/97561.jpg,data/raw/pitt_ads/images/1/97561.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/82986.jpg,data/raw/pitt_ads/images/6/82986.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/91996.jpg,data/raw/pitt_ads/images/6/91996.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/98281.jpg,data/raw/pitt_ads/images/1/98281.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/18382.jpg,data/raw/pitt_ads/images/2/18382.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+2/162182.jpg,data/raw/pitt_ads/images/2/162182.jpg,9,"Cars, automobiles",safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/2714.jpg,data/raw/pitt_ads/images/4/2714.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/93583.jpg,data/raw/pitt_ads/images/3/93583.jpg,27,Sports equipment and activities,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/158594.jpg,data/raw/pitt_ads/images/4/158594.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/11642.jpg,data/raw/pitt_ads/images/2/11642.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/98659.jpg,data/raw/pitt_ads/images/9/98659.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/76661.jpg,data/raw/pitt_ads/images/1/76661.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/8901.jpg,data/raw/pitt_ads/images/1/8901.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+5/87025.jpg,data/raw/pitt_ads/images/5/87025.jpg,28,Shopping,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/67249.jpg,data/raw/pitt_ads/images/9/67249.jpg,4,"Seasoning, condiments, ketchup",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/174614.png,data/raw/pitt_ads/images/10/174614.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/141735.jpg,data/raw/pitt_ads/images/5/141735.jpg,27,Sports equipment and activities,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/94778.jpg,data/raw/pitt_ads/images/8/94778.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/83058.jpg,data/raw/pitt_ads/images/8/83058.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/33521.jpg,data/raw/pitt_ads/images/1/33521.jpg,15,Software,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/1352.jpg,data/raw/pitt_ads/images/2/1352.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/58503.jpg,data/raw/pitt_ads/images/3/58503.jpg,25,Vacation and travel,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/116071.jpg,data/raw/pitt_ads/images/1/116071.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/174980.png,data/raw/pitt_ads/images/10/174980.png,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/10343.jpg,data/raw/pitt_ads/images/3/10343.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/171139.png,data/raw/pitt_ads/images/10/171139.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+0/98460.jpg,data/raw/pitt_ads/images/0/98460.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+2/134612.jpg,data/raw/pitt_ads/images/2/134612.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/140055.jpg,data/raw/pitt_ads/images/5/140055.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/14636.jpg,data/raw/pitt_ads/images/6/14636.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/45220.jpg,data/raw/pitt_ads/images/0/45220.jpg,19,Clothing and accessories,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/11541.jpg,data/raw/pitt_ads/images/1/11541.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/163477.jpg,data/raw/pitt_ads/images/7/163477.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/11737.jpg,data/raw/pitt_ads/images/7/11737.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/9923.jpg,data/raw/pitt_ads/images/3/9923.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+10/171565.png,data/raw/pitt_ads/images/10/171565.png,36,"Self esteem, bullying, cyber bullying",bullying,2,3,True,bullying,bullying,test
+4/135134.jpg,data/raw/pitt_ads/images/4/135134.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+4/18104.jpg,data/raw/pitt_ads/images/4/18104.jpg,36,"Self esteem, bullying, cyber bullying",bullying,3,3,True,bullying,bullying,test
+3/85883.jpg,data/raw/pitt_ads/images/3/85883.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/78134.jpg,data/raw/pitt_ads/images/4/78134.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/146365.jpg,data/raw/pitt_ads/images/5/146365.jpg,28,Shopping,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/11649.jpg,data/raw/pitt_ads/images/9/11649.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/172518.png,data/raw/pitt_ads/images/10/172518.png,31,"Animal rights, animal abuse",animal_abuse,1,3,True,animal_abuse,violence_or_abuse,test
+2/66772.jpg,data/raw/pitt_ads/images/2/66772.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/171804.png,data/raw/pitt_ads/images/10/171804.png,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/18902.jpg,data/raw/pitt_ads/images/2/18902.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/132345.jpg,data/raw/pitt_ads/images/5/132345.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+5/32325.jpg,data/raw/pitt_ads/images/5/32325.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+9/137799.jpg,data/raw/pitt_ads/images/9/137799.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/116264.jpg,data/raw/pitt_ads/images/4/116264.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+6/56026.jpg,data/raw/pitt_ads/images/6/56026.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+6/95096.jpg,data/raw/pitt_ads/images/6/95096.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/95072.jpg,data/raw/pitt_ads/images/2/95072.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/164950.jpg,data/raw/pitt_ads/images/0/164950.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+7/95337.jpg,data/raw/pitt_ads/images/7/95337.jpg,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/174136.png,data/raw/pitt_ads/images/10/174136.png,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+9/103939.jpg,data/raw/pitt_ads/images/9/103939.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+8/163538.jpg,data/raw/pitt_ads/images/8/163538.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/1580.jpg,data/raw/pitt_ads/images/0/1580.jpg,9,"Cars, automobiles",safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/151877.jpg,data/raw/pitt_ads/images/7/151877.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/174237.png,data/raw/pitt_ads/images/10/174237.png,35,Domestic violence,violence,3,3,True,violence,violence_or_abuse,test
+1/156931.jpg,data/raw/pitt_ads/images/1/156931.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/141987.jpg,data/raw/pitt_ads/images/7/141987.jpg,10,Electronics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/163663.jpg,data/raw/pitt_ads/images/3/163663.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/20431.jpg,data/raw/pitt_ads/images/1/20431.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/172384.png,data/raw/pitt_ads/images/10/172384.png,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+7/41387.jpg,data/raw/pitt_ads/images/7/41387.jpg,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+4/66724.jpg,data/raw/pitt_ads/images/4/66724.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+8/10038.jpg,data/raw/pitt_ads/images/8/10038.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/25085.jpg,data/raw/pitt_ads/images/5/25085.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/175015.png,data/raw/pitt_ads/images/10/175015.png,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/25856.jpg,data/raw/pitt_ads/images/6/25856.jpg,31,"Animal rights, animal abuse",animal_abuse,1,3,True,animal_abuse,violence_or_abuse,test
+8/155228.jpg,data/raw/pitt_ads/images/8/155228.jpg,25,Vacation and travel,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/13492.jpg,data/raw/pitt_ads/images/2/13492.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/124087.jpg,data/raw/pitt_ads/images/7/124087.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/165026.jpg,data/raw/pitt_ads/images/6/165026.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/33018.jpg,data/raw/pitt_ads/images/8/33018.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/163781.jpg,data/raw/pitt_ads/images/1/163781.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/94353.jpg,data/raw/pitt_ads/images/3/94353.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/94814.jpg,data/raw/pitt_ads/images/4/94814.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/45771.jpg,data/raw/pitt_ads/images/1/45771.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/109519.jpg,data/raw/pitt_ads/images/9/109519.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/36294.jpg,data/raw/pitt_ads/images/4/36294.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/41618.jpg,data/raw/pitt_ads/images/8/41618.jpg,35,Domestic violence,violence,3,3,True,violence,violence_or_abuse,test
+5/97905.jpg,data/raw/pitt_ads/images/5/97905.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+0/24210.jpg,data/raw/pitt_ads/images/0/24210.jpg,6,Alcohol,alcohol,3,5,True,alcohol,substance,test
+4/143744.jpg,data/raw/pitt_ads/images/4/143744.jpg,13,Education,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/13202.jpg,data/raw/pitt_ads/images/2/13202.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+0/134980.jpg,data/raw/pitt_ads/images/0/134980.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,4,5,True,smoking_alcohol_abuse,substance,test
+7/17827.jpg,data/raw/pitt_ads/images/7/17827.jpg,36,"Self esteem, bullying, cyber bullying",bullying,2,3,True,bullying,bullying,test
+10/171800.png,data/raw/pitt_ads/images/10/171800.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+7/76887.jpg,data/raw/pitt_ads/images/7/76887.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/164853.jpg,data/raw/pitt_ads/images/3/164853.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/106232.jpg,data/raw/pitt_ads/images/2/106232.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/23589.jpg,data/raw/pitt_ads/images/9/23589.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/17748.jpg,data/raw/pitt_ads/images/8/17748.jpg,21,Games and toys,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/135659.jpg,data/raw/pitt_ads/images/9/135659.jpg,27,Sports equipment and activities,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/1111.jpg,data/raw/pitt_ads/images/1/1111.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/46203.jpg,data/raw/pitt_ads/images/3/46203.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+3/30523.jpg,data/raw/pitt_ads/images/3/30523.jpg,7,"Coffee, tea",safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/121861.jpg,data/raw/pitt_ads/images/1/121861.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/38529.jpg,data/raw/pitt_ads/images/9/38529.jpg,15,Software,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/173119.png,data/raw/pitt_ads/images/10/173119.png,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/162282.jpg,data/raw/pitt_ads/images/2/162282.jpg,24,Home appliances,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/118317.jpg,data/raw/pitt_ads/images/7/118317.jpg,19,Clothing and accessories,safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/171643.png,data/raw/pitt_ads/images/10/171643.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+10/176001.png,data/raw/pitt_ads/images/10/176001.png,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/176195.png,data/raw/pitt_ads/images/10/176195.png,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+2/11852.jpg,data/raw/pitt_ads/images/2/11852.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/124208.jpg,data/raw/pitt_ads/images/8/124208.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/158705.jpg,data/raw/pitt_ads/images/5/158705.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+5/33535.jpg,data/raw/pitt_ads/images/5/33535.jpg,27,Sports equipment and activities,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/4811.jpg,data/raw/pitt_ads/images/1/4811.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/70058.jpg,data/raw/pitt_ads/images/8/70058.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/135234.jpg,data/raw/pitt_ads/images/4/135234.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+1/158871.jpg,data/raw/pitt_ads/images/1/158871.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/69565.jpg,data/raw/pitt_ads/images/5/69565.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/140676.jpg,data/raw/pitt_ads/images/6/140676.jpg,9,"Cars, automobiles",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/10414.jpg,data/raw/pitt_ads/images/4/10414.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/58697.jpg,data/raw/pitt_ads/images/7/58697.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/81273.jpg,data/raw/pitt_ads/images/3/81273.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/53592.jpg,data/raw/pitt_ads/images/2/53592.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/172605.png,data/raw/pitt_ads/images/10/172605.png,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/48191.jpg,data/raw/pitt_ads/images/1/48191.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+10/170065.png,data/raw/pitt_ads/images/10/170065.png,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+5/61835.jpg,data/raw/pitt_ads/images/5/61835.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/135146.jpg,data/raw/pitt_ads/images/6/135146.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+8/10458.jpg,data/raw/pitt_ads/images/8/10458.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/173662.png,data/raw/pitt_ads/images/10/173662.png,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/19257.jpg,data/raw/pitt_ads/images/7/19257.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/86880.jpg,data/raw/pitt_ads/images/0/86880.jpg,19,Clothing and accessories,safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/170585.png,data/raw/pitt_ads/images/10/170585.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/80965.jpg,data/raw/pitt_ads/images/5/80965.jpg,7,"Coffee, tea",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/131431.jpg,data/raw/pitt_ads/images/1/131431.jpg,27,Sports equipment and activities,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/116425.jpg,data/raw/pitt_ads/images/5/116425.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+10/176629.png,data/raw/pitt_ads/images/10/176629.png,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+6/165236.jpg,data/raw/pitt_ads/images/6/165236.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/116336.jpg,data/raw/pitt_ads/images/6/116336.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+1/115431.jpg,data/raw/pitt_ads/images/1/115431.jpg,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/98279.jpg,data/raw/pitt_ads/images/9/98279.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/73531.jpg,data/raw/pitt_ads/images/1/73531.jpg,15,Software,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/95698.jpg,data/raw/pitt_ads/images/8/95698.jpg,22,Cleaning products,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/116302.jpg,data/raw/pitt_ads/images/2/116302.jpg,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+7/85067.jpg,data/raw/pitt_ads/images/7/85067.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/131281.jpg,data/raw/pitt_ads/images/1/131281.jpg,9,"Cars, automobiles",safe_or_irrelevant,1,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/171886.png,data/raw/pitt_ads/images/10/171886.png,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+10/175593.png,data/raw/pitt_ads/images/10/175593.png,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/157017.jpg,data/raw/pitt_ads/images/7/157017.jpg,19,Clothing and accessories,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/81581.jpg,data/raw/pitt_ads/images/1/81581.jpg,31,"Animal rights, animal abuse",animal_abuse,3,3,True,animal_abuse,violence_or_abuse,test
+0/10370.jpg,data/raw/pitt_ads/images/0/10370.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+7/165337.jpg,data/raw/pitt_ads/images/7/165337.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/38209.jpg,data/raw/pitt_ads/images/9/38209.jpg,25,Vacation and travel,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+1/148441.jpg,data/raw/pitt_ads/images/1/148441.jpg,10,Electronics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/98560.jpg,data/raw/pitt_ads/images/0/98560.jpg,6,Alcohol,alcohol,5,5,True,alcohol,substance,test
+10/172747.png,data/raw/pitt_ads/images/10/172747.png,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+1/90131.jpg,data/raw/pitt_ads/images/1/90131.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,2,3,True,smoking_alcohol_abuse,substance,test
+1/135141.jpg,data/raw/pitt_ads/images/1/135141.jpg,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+10/170789.png,data/raw/pitt_ads/images/10/170789.png,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/53358.jpg,data/raw/pitt_ads/images/8/53358.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+8/158608.jpg,data/raw/pitt_ads/images/8/158608.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+8/126118.jpg,data/raw/pitt_ads/images/8/126118.jpg,9,"Cars, automobiles",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+4/62914.jpg,data/raw/pitt_ads/images/4/62914.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+10/170393.png,data/raw/pitt_ads/images/10/170393.png,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/158697.jpg,data/raw/pitt_ads/images/7/158697.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+5/10325.jpg,data/raw/pitt_ads/images/5/10325.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+6/163646.jpg,data/raw/pitt_ads/images/6/163646.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/145051.jpg,data/raw/pitt_ads/images/1/145051.jpg,36,"Self esteem, bullying, cyber bullying",bullying,1,3,True,bullying,bullying,test
+10/171213.png,data/raw/pitt_ads/images/10/171213.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+10/176242.png,data/raw/pitt_ads/images/10/176242.png,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+5/90305.jpg,data/raw/pitt_ads/images/5/90305.jpg,28,Shopping,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/170527.png,data/raw/pitt_ads/images/10/170527.png,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+9/41289.jpg,data/raw/pitt_ads/images/9/41289.jpg,35,Domestic violence,violence,3,3,True,violence,violence_or_abuse,test
+10/176112.png,data/raw/pitt_ads/images/10/176112.png,34,"Smoking, alcohol abuse",smoking_alcohol_abuse,3,3,True,smoking_alcohol_abuse,substance,test
+10/173336.png,data/raw/pitt_ads/images/10/173336.png,1,"Restaurants, cafe, fast food",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+0/41670.jpg,data/raw/pitt_ads/images/0/41670.jpg,1,"Restaurants, cafe, fast food",safe_or_irrelevant,5,5,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/65337.jpg,data/raw/pitt_ads/images/7/65337.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+7/11777.jpg,data/raw/pitt_ads/images/7/11777.jpg,6,Alcohol,alcohol,1,3,True,alcohol,substance,test
+5/163825.jpg,data/raw/pitt_ads/images/5/163825.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/58571.jpg,data/raw/pitt_ads/images/1/58571.jpg,6,Alcohol,alcohol,2,3,True,alcohol,substance,test
+10/170681.png,data/raw/pitt_ads/images/10/170681.png,8,"Soda, juice, milk, energy drinks, water",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/162183.jpg,data/raw/pitt_ads/images/3/162183.jpg,24,Home appliances,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/10123.jpg,data/raw/pitt_ads/images/3/10123.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+3/32343.jpg,data/raw/pitt_ads/images/3/32343.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+2/103522.jpg,data/raw/pitt_ads/images/2/103522.jpg,2,"Chocolate, cookies, candy, ice cream",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+9/87969.jpg,data/raw/pitt_ads/images/9/87969.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/7053.jpg,data/raw/pitt_ads/images/3/7053.jpg,3,"Chips, snacks, nuts, fruit, gum, cereal, yogurt, soups",safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+10/172586.png,data/raw/pitt_ads/images/10/172586.png,31,"Animal rights, animal abuse",animal_abuse,2,3,True,animal_abuse,violence_or_abuse,test
+9/95549.jpg,data/raw/pitt_ads/images/9/95549.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/163701.jpg,data/raw/pitt_ads/images/1/163701.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+1/18191.jpg,data/raw/pitt_ads/images/1/18191.jpg,27,Sports equipment and activities,safe_or_irrelevant,2,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+3/158643.jpg,data/raw/pitt_ads/images/3/158643.jpg,6,Alcohol,alcohol,3,3,True,alcohol,substance,test
+7/14677.jpg,data/raw/pitt_ads/images/7/14677.jpg,19,Clothing and accessories,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
+2/41492.jpg,data/raw/pitt_ads/images/2/41492.jpg,35,Domestic violence,violence,2,3,True,violence,violence_or_abuse,test
+1/33261.jpg,data/raw/pitt_ads/images/1/33261.jpg,17,Beauty products and cosmetics,safe_or_irrelevant,3,3,True,safe_or_irrelevant,safe_or_irrelevant,test
