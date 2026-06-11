@@ -1,0 +1,15 @@
+{
+  "split_dir": "data/processed/pitt_ads/splits_balanced_train_realistic_eval",
+  "image_root": "data/raw/pitt_ads/images",
+  "output_dir": "reports/pitt_ads/clip_partial_finetune_unfreeze1",
+  "model_name": "openai/clip-vit-base-patch32",
+  "epochs": 3,
+  "batch_size": 8,
+  "num_workers": 0,
+  "lr_head": 0.001,
+  "lr_clip": 1e-05,
+  "weight_decay": 0.01,
+  "unfreeze_last_n": 1,
+  "class_weights": true,
+  "seed": 42
+}

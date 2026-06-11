@@ -1,0 +1,39 @@
+{
+  "bullying": {
+    "precision": 0.11400651465798045,
+    "recall": 0.813953488372093,
+    "f1-score": 0.2,
+    "support": 43.0
+  },
+  "safe_or_irrelevant": {
+    "precision": 0.9903551074090311,
+    "recall": 0.8523456169035342,
+    "f1-score": 0.9161822360416385,
+    "support": 7951.0
+  },
+  "substance": {
+    "precision": 0.4284294234592445,
+    "recall": 0.8256704980842912,
+    "f1-score": 0.5641361256544503,
+    "support": 522.0
+  },
+  "violence_or_abuse": {
+    "precision": 0.23541247484909456,
+    "recall": 0.8540145985401459,
+    "f1-score": 0.36908517350157727,
+    "support": 137.0
+  },
+  "accuracy": 0.850572055934358,
+  "macro avg": {
+    "precision": 0.44205088009383764,
+    "recall": 0.8364960504750161,
+    "f1-score": 0.5123508837994165,
+    "support": 8653.0
+  },
+  "weighted avg": {
+    "precision": 0.9401487816063273,
+    "recall": 0.850572055934358,
+    "f1-score": 0.8827237588268124,
+    "support": 8653.0
+  }
+}

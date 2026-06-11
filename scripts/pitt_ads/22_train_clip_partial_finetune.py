@@ -130,7 +130,7 @@ class CLIPPartialFineTuner(nn.Module):
     def __init__(self, model_name, num_labels, unfreeze_last_n):
         super().__init__()
 
-        self.vision_model = CLIPVisionModelWithProjection.from_pretrained(model_name)
+        self.vision_model = CLIPVisionModelWithProjection.from_pretrained(model_name, use_safetensors=True)
         projection_dim = self.vision_model.config.projection_dim
 
         self.classifier = nn.Sequential(
