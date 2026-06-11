@@ -1,0 +1,586 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{amsmath}
+
+\title{Advertisement Moderation Classification Using Visual and Textual Representations}
+\author{Naama Skital}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This project focuses on automatic advertisement content classification for safety-oriented moderation. The goal is to classify advertisement images into four coarse moderation categories: safe or irrelevant, substance-related content, violence or abuse, and bullying. The project is based on the University of Pittsburgh Ads Dataset. The original advertisement topics were mapped into broader moderation-oriented labels, and several modeling approaches were evaluated.
+
+The evaluated approaches include simple baselines, CLIP zero-shot classification, CLIP image embeddings with classical classifiers, OCR text-only models, image-text fusion models, and partial fine-tuning of CLIP. Since the dataset is highly imbalanced, Macro-F1 was selected as the main evaluation metric. The best final model was an Image and Text Fusion MLP, which combines visual features extracted using CLIP with textual features extracted using OCR. In the realistic final evaluation, this model achieved an accuracy of 0.9092, a Macro-F1 score of 0.6493, and a Weighted-F1 score of 0.9211. The results show that combining visual and textual representations is more effective than using image-only or text-only models for advertisement moderation.
+\end{abstract}
+
+\section{Introduction}
+
+Advertisements are a common type of visual and textual content on digital platforms. Most advertisements are safe, but some may contain sensitive or harmful content, such as substance-related products, violence, abuse, or bullying-related content. Automatic moderation of advertisements is therefore important for platforms that need to identify risky content while avoiding unnecessary blocking of harmless advertisements.
+
+Advertisement moderation is challenging because advertisements usually contain both visual and textual information. A single advertisement may include products, people, symbols, slogans, brand names, prices, and other visual cues. Therefore, advertisement moderation is not only an image classification problem and not only a text classification problem. A good model should be able to use both what appears in the image and what is written inside the advertisement.
+
+The main goal of this project is to classify advertisement images into safety-oriented moderation categories. The categories used in this project are:
+\begin{itemize}
+    \item safe or irrelevant
+    \item substance
+    \item violence or abuse
+    \item bullying
+\end{itemize}
+
+The main research question is:
+\begin{quote}
+Can visual and textual representations help classify advertisements into moderation-related categories?
+\end{quote}
+
+To answer this question, the project compares several approaches. First, simple baselines are used to understand the difficulty of the task. Then, CLIP is tested in a zero-shot setting. After that, CLIP image embeddings are used with classical machine learning classifiers. OCR is used to extract text from the advertisements, and OCR text features are tested with text-only classifiers. Finally, OCR text features are combined with CLIP image features in a fusion model. In addition, partial fine-tuning experiments are performed to test whether updating part of CLIP improves performance.
+
+A key difficulty in this task is class imbalance. In realistic moderation settings, most advertisements are safe, while sensitive categories are much smaller. Therefore, accuracy alone can be misleading. For example, a model that predicts almost everything as safe can achieve high accuracy, but it will fail to detect important sensitive categories. For this reason, Macro-F1 is used as the main metric for selecting the final model.
+
+\section{Related Work}
+
+This project is related to several research directions: advertisement understanding, vision-language representation learning, OCR-based text extraction, multimodal fusion, and practical moderation systems.
+
+\subsection{Advertisement Understanding}
+
+Previous work on automatic advertisement understanding studied how to analyze the meaning, topic, and intent of advertisements using computer vision and machine learning. Hussain et al. introduced the problem of automatic advertisement understanding and presented the University of Pittsburgh Ads Dataset \cite{hussain2017ads}. The dataset contains a large image advertisement collection and includes rich annotations such as topics, sentiments, symbolism, questions and answers, and persuasive strategies.
+
+Advertisements are different from standard image classification examples. In a standard image classification task, the goal may be to recognize a visible object, such as a dog, a car, or a chair. In advertisement understanding, the meaning is often more complex. An advertisement is designed to persuade the viewer, and its meaning can depend on the product, the written text, the style, the symbols, and the social context.
+
+This project uses the Pittsburgh Ads Dataset as the basis for a moderation-oriented classification task. Instead of predicting the original advertisement topic directly, the original topics are mapped into broader safety-related categories. This changes the task from general advertisement topic recognition into content moderation classification.
+
+\subsection{Vision-Language Models and CLIP}
+
+CLIP is a vision-language model trained on image-text pairs. Radford et al. showed that visual models trained with natural language supervision can learn transferable visual representations and support zero-shot classification \cite{radford2021clip}. Instead of learning only from a fixed set of visual labels, CLIP learns to align images with natural language descriptions. This makes it useful for zero-shot classification, where a model classifies images using text prompts without being trained directly on the target dataset.
+
+In this project, CLIP is used in several ways. First, CLIP is tested as a zero-shot classifier using textual descriptions of the moderation categories. Second, CLIP is used as a frozen image feature extractor. In that setting, each advertisement image is converted into an image embedding, and classical classifiers are trained on top of these embeddings. Third, partial fine-tuning is tested by training a classification head and then unfreezing the last visual block of CLIP.
+
+The zero-shot results were weak, which suggests that general prompts are not enough for this specific advertisement moderation task. However, CLIP image embeddings were useful when combined with trained classifiers. This shows that CLIP provides meaningful visual representations, but the task still benefits from supervised learning on the project data.
+
+\subsection{Broader Vision-Language Pretraining}
+
+Beyond CLIP, several works show the importance of combining vision and language in one model. VisualBERT uses a Transformer-based architecture to model image regions together with text and showed strong results on several vision-and-language tasks \cite{li2019visualbert}. ViLT simplifies vision-language pretraining by processing image patches and text tokens in a single Transformer architecture, avoiding heavy object-detection feature extraction \cite{kim2021vilt}. BLIP introduced a framework for vision-language understanding and generation using bootstrapped captions and filtering noisy image-text data \cite{li2022blip}.
+
+These models show that joint visual-textual reasoning is an important direction for tasks that require both image and language understanding. However, this project uses a lighter and more practical approach: CLIP image embeddings are combined with OCR text features. This allows the project to test multimodal advertisement moderation without training a large end-to-end vision-language model.
+
+\subsection{OCR for Text Extraction}
+
+Advertisements often contain written text. This text may include slogans, brand names, warnings, prices, or product descriptions. Since written text can provide important moderation signals, OCR was used to extract text from the advertisement images. Tesseract OCR is a widely used OCR engine described by Smith \cite{smith2007tesseract}.
+
+In this project, OCR was used as a practical way to extract textual signals from advertisement images. The extracted OCR text was used to train text-only classifiers. This helped test whether the written content alone is enough for classification. The results show that text can help, but text alone is not sufficient. Many advertisements require visual understanding in addition to text.
+
+\subsection{Multimodal Learning}
+
+Multimodal learning focuses on combining information from multiple types of data, such as images and text. Baltru\v{s}aitis et al. describe multimodal machine learning as an important direction for tasks where information comes from different sources \cite{baltrusaitis2019multimodal}. They describe several central challenges in multimodal learning, including representation, alignment, fusion, translation, and co-learning.
+
+This direction is highly relevant to advertisement understanding because advertisements usually contain both visual and textual signals. The final model in this project follows a multimodal fusion approach. It combines CLIP image embeddings with OCR-based text features. The goal is to allow the model to use both what appears in the image and what is written in the advertisement.
+
+The best result was achieved by the Image and Text Fusion MLP. This supports the idea that combining visual and textual information is useful for advertisement moderation.
+
+\subsection{Positioning of This Project}
+
+The main contribution of this project is not the creation of a new neural architecture. Instead, the contribution is the construction of a complete advertisement moderation pipeline: mapping advertisement topics into moderation categories, comparing image-only and text-only baselines, building a multimodal fusion model, evaluating on both controlled and realistic settings, analyzing errors, testing partial fine-tuning, and adding confidence-based manual review analysis.
+
+This makes the project practical as well as experimental. It does not only ask which model has the highest accuracy. It also asks which model is more balanced across sensitive categories and how a moderation system can handle uncertain predictions.
+
+\section{Problem Definition}
+
+The task in this project is a multi-class classification problem. For each advertisement image, the model receives an input and predicts one of four moderation labels:
+\begin{itemize}
+    \item safe or irrelevant
+    \item substance
+    \item violence or abuse
+    \item bullying
+\end{itemize}
+
+The input is an advertisement image. In the image-only models, the input is represented by CLIP image embeddings. In the OCR models, the input is the extracted text. In the fusion models, the input contains both the image representation and the OCR text representation.
+
+The goal is to learn a classifier that maps each advertisement to the correct moderation category. Because the data is imbalanced, the model should not only perform well on the largest class. It should also detect the smaller sensitive classes. For this reason, Macro-F1 is treated as the main evaluation metric. Macro-F1 gives equal importance to all classes, including small classes such as bullying.
+
+\section{Dataset}
+
+The project uses the University of Pittsburgh Ads Dataset. The original dataset contains advertisement images and topic annotations. Since the original topics are not moderation labels, a mapping step was performed. The original advertisement topics were mapped into four coarse moderation categories. The final categories are shown in Table \ref{tab:categories}.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{p{0.28\linewidth} p{0.62\linewidth}}
+\toprule
+\textbf{Category} & \textbf{Meaning} \\
+\midrule
+safe or irrelevant & Regular advertisements that do not match the sensitive categories. \\
+substance & Advertisements related to alcohol, smoking, drugs, or similar products. \\
+violence or abuse & Advertisements related to violence, weapons, abuse, or aggressive content. \\
+bullying & Advertisements related to bullying, humiliation, or hostile social content. \\
+\bottomrule
+\end{tabular}
+\caption{Final moderation categories.}
+\label{tab:categories}
+\end{table}
+
+This mapping transformed the dataset into a supervised classification task. Each advertisement image receives one coarse moderation label.
+
+\section{Data Splits}
+
+Two evaluation settings were used in the project. The first setting was a controlled and less imbalanced evaluation setting. The second setting was a realistic evaluation setting in which most test examples are safe or irrelevant. Using both settings helped evaluate the models from two perspectives: how well the model learns the categories under a more controlled split, and how well it behaves in a more realistic moderation scenario.
+
+\subsection{Controlled Evaluation Setting}
+
+The controlled evaluation setting was used to compare the main image-only, text-only, and multimodal models. This setting reduces the dominance of the safe class compared to the full realistic distribution, and it allows a clearer comparison between models. The test distribution for this setting is shown in Table \ref{tab:controlled_test_dist}.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lc}
+\toprule
+\textbf{Category} & \textbf{Test Count} \\
+\midrule
+safe or irrelevant & 699 \\
+substance & 522 \\
+violence or abuse & 137 \\
+bullying & 43 \\
+\bottomrule
+\end{tabular}
+\caption{Controlled evaluation test distribution.}
+\label{tab:controlled_test_dist}
+\end{table}
+
+\subsection{Realistic Evaluation Setting}
+
+The final realistic evaluation uses a highly imbalanced test set. This is important because in real moderation systems, most advertisements are safe and only a smaller portion belong to sensitive categories. The final realistic test distribution is shown in Table \ref{tab:realistic_test_dist}.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lc}
+\toprule
+\textbf{Category} & \textbf{Test Count} \\
+\midrule
+safe or irrelevant & 7951 \\
+substance & 522 \\
+violence or abuse & 137 \\
+bullying & 43 \\
+\bottomrule
+\end{tabular}
+\caption{Final realistic test distribution.}
+\label{tab:realistic_test_dist}
+\end{table}
+
+A balanced-train and realistic-evaluation setup was also created. In this setup, the training set is less dominated by the safe class, while the validation and test sets remain realistic and imbalanced. The balanced training distribution is shown in Table \ref{tab:train_dist}.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lc}
+\toprule
+\textbf{Category} & \textbf{Train Count} \\
+\midrule
+safe or irrelevant & 3261 \\
+substance & 2429 \\
+violence or abuse & 637 \\
+bullying & 195 \\
+\bottomrule
+\end{tabular}
+\caption{Balanced training distribution used with the realistic evaluation setting.}
+\label{tab:train_dist}
+\end{table}
+
+The motivation for this split was to reduce the dominance of the safe class during training while still evaluating the model on a realistic test distribution. This makes the evaluation more meaningful for a moderation scenario.
+
+\section{Proposed Approach}
+
+The solution was designed as a gradual pipeline, starting from simple baselines and moving toward stronger visual and multimodal models.
+
+First, simple baselines were evaluated in order to understand the difficulty of the task. This step was important because the dataset is highly imbalanced. A simple majority baseline can achieve high accuracy without actually detecting sensitive categories.
+
+Second, CLIP zero-shot classification was tested. This checked whether a pretrained vision-language model could solve the task without training on the advertisement dataset. The zero-shot results were weak, which showed that task-specific training was needed.
+
+Third, CLIP was used as a frozen image encoder. Each advertisement image was converted into a 512-dimensional image embedding, and classical classifiers were trained on top of these embeddings. This tested whether the visual representations learned by CLIP were useful for advertisement moderation.
+
+Fourth, OCR was applied to extract text from the advertisement images. Text-only classifiers were trained on the OCR output to check whether written content was useful for the task.
+
+Fifth, image and text features were combined in a fusion model. This model used both CLIP image embeddings and OCR-based text features. The motivation was that advertisement meaning often depends on both visual content and written text. The final selected model was the Image and Text Fusion MLP because it achieved the best Macro-F1 score.
+
+Finally, partial fine-tuning experiments were performed. The purpose of these experiments was to test whether updating part of CLIP improves over using CLIP only as a frozen feature extractor. This added a deeper comparison between frozen representations and task-adapted visual representations.
+
+\section{Pipeline}
+
+The project pipeline included the following steps:
+\begin{enumerate}
+    \item Build topic-level CSV files from the Pittsburgh Ads annotations.
+    \item Map original advertisement topics into moderation-oriented categories.
+    \item Create coarse moderation labels.
+    \item Create controlled and realistic train, validation, and test splits.
+    \item Generate local HTML viewers for manual inspection.
+    \item Run CLIP zero-shot classification.
+    \item Extract CLIP image embeddings.
+    \item Train image-only classifiers on CLIP embeddings.
+    \item Extract OCR text from advertisement images.
+    \item Train OCR text-only classifiers.
+    \item Train image and text fusion classifiers.
+    \item Train partial fine-tuning variants of CLIP.
+    \item Collect final results and perform error analysis.
+    \item Generate prediction examples with confidence, safety, and uncertainty scores.
+    \item Evaluate a confidence-threshold manual review policy.
+\end{enumerate}
+
+\section{Methods}
+
+\subsection{Simple Baselines}
+
+Two simple baselines were evaluated: a majority baseline and a stratified random baseline. The majority baseline always predicts the largest class. In this dataset, the largest class is safe or irrelevant. Because the test set is highly imbalanced, this baseline can achieve high accuracy, but it fails to detect the sensitive categories. The stratified random baseline predicts labels according to the class distribution. It provides another simple reference point for understanding whether trained models actually learn useful patterns. These baselines are important because they show why accuracy alone is not enough for this task.
+
+\subsection{CLIP Zero-Shot Classification}
+
+CLIP zero-shot classification was tested using textual prompts for the target moderation categories. In this setting, the model is not trained on the project dataset. Instead, CLIP compares the image representation to textual descriptions of the possible labels. This approach tests whether a pretrained vision-language model can solve the task without task-specific training. The zero-shot results were weak, which suggests that generic prompts are not sufficient for this advertisement moderation task.
+
+\subsection{CLIP Image Embeddings with Classical Classifiers}
+
+In this approach, CLIP was used as a frozen image feature extractor. Each advertisement image was converted into a visual embedding using CLIP ViT-B/32. Then, classical machine learning classifiers were trained on top of these embeddings. The classifiers included Logistic Regression, Linear SVM, Random Forest, Gradient Boosting, and MLP. This approach is similar to feature extraction or linear probing. It tests whether the frozen visual representations learned by CLIP are useful for advertisement moderation.
+
+\subsection{OCR Text-Only Models}
+
+Advertisements often contain important text, such as slogans, product names, warnings, or brand names. Therefore, OCR was used to extract text from the advertisement images. After extracting the text, text-only classifiers were trained using the OCR output. The goal was to check whether the written content inside the advertisement is useful for classification. The OCR-only models provided useful information in some cases, but text alone was not enough. Many advertisements require visual understanding, because the sensitive content may appear in objects, people, symbols, or the overall visual context.
+
+\subsection{Image and Text Fusion}
+
+The final multimodal approach combines both image and text information. The fusion model uses CLIP image embeddings for visual information and OCR-based textual features for written content. The best fusion model was an Image and Text Fusion MLP. This model was selected as the final model because it achieved the best Macro-F1 score among the tested models.
+
+\subsection{Partial Fine-Tuning of CLIP}
+
+In addition to using CLIP as a frozen feature extractor, two fine-tuning variants were tested:
+\begin{enumerate}
+    \item \textbf{Head-only fine-tuning:} the CLIP visual encoder was kept frozen and only a small classification head was trained.
+    \item \textbf{Partial fine-tuning:} the classification head was trained while the last visual block of CLIP was unfrozen.
+\end{enumerate}
+
+The head-only model had only 3,076 trainable parameters out of 87,852,292 total parameters, so it mainly tested whether a small learned classifier on top of CLIP could adapt to the task. The partial fine-tuning model tested whether updating the last visual block could improve the representation for advertisement moderation.
+
+\subsection{Confidence and Safety Scores}
+
+In addition to predicting a moderation label, confidence and safety scores were added to the realistic prediction outputs. These scores make the model more useful for a realistic moderation system. Instead of only returning a label, the system can also estimate how safe or risky an advertisement is.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lp{0.68\linewidth}}
+\toprule
+\textbf{Output} & \textbf{Meaning} \\
+\midrule
+predicted label & The final predicted moderation category. \\
+confidence score & The model probability assigned to the predicted label. \\
+safety score & The probability that the advertisement belongs to the safe or irrelevant class. \\
+unsafe score & 1 minus the safety score, representing how likely the advertisement is to be unsafe. \\
+\bottomrule
+\end{tabular}
+\caption{Definitions of confidence and safety outputs.}
+\label{tab:safety_scores}
+\end{table}
+
+If the model has low confidence, or if the unsafe score is high, the advertisement can be sent to manual review. This is important because moderation systems should not rely only on a hard prediction when the model is uncertain.
+
+\section{Evaluation Metrics}
+
+\subsection{Accuracy}
+
+Accuracy measures the percentage of correctly classified examples. However, in an imbalanced dataset, accuracy can be misleading. For example, a model that predicts most examples as safe or irrelevant can achieve high accuracy but fail to detect sensitive categories.
+
+\subsection{Macro-F1}
+
+Macro-F1 computes the F1 score for each class and then averages the scores equally across all classes. This metric is important because it gives equal weight to small classes such as bullying. Macro-F1 was selected as the main metric for choosing the final model.
+
+\subsection{Weighted-F1}
+
+Weighted-F1 also computes F1 scores across classes, but it weights each class according to the number of examples. This metric is useful, but in highly imbalanced datasets it is strongly influenced by the largest class.
+
+\section{Results}
+
+\subsection{Controlled Evaluation Results}
+
+Table \ref{tab:controlled_results} summarizes the main results in the controlled evaluation setting. In this setting, the Image and Text Fusion MLP achieved the best performance. This result supports the main idea of the project: advertisement moderation benefits from combining visual and textual information.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+\textbf{Model} & \textbf{Accuracy} & \textbf{Macro-F1} \\
+\midrule
+CLIP zero-shot & 0.3947 & 0.3440 \\
+OCR text-only baseline & 0.6432 & 0.5757 \\
+CLIP + Logistic Regression & 0.8351 & 0.7528 \\
+CLIP + Linear SVM & 0.8258 & 0.7230 \\
+CLIP + Gradient Boosting & 0.8572 & 0.7720 \\
+CLIP + Random Forest & 0.8073 & 0.6586 \\
+CLIP + MLP & 0.8744 & 0.7937 \\
+Image + OCR Fusion MLP & \textbf{0.8801} & \textbf{0.8046} \\
+\bottomrule
+\end{tabular}
+\caption{Controlled evaluation results.}
+\label{tab:controlled_results}
+\end{table}
+
+The OCR text-only baseline performed better than CLIP zero-shot, which shows that text inside advertisements contains useful information. However, it was weaker than image-based CLIP embedding models. The best result was achieved by combining image and text features in the Image + OCR Fusion MLP.
+
+\subsection{Final Realistic Evaluation Results}
+
+The final realistic evaluation was performed on a highly imbalanced test set, where the safe or irrelevant class was much larger than the sensitive classes. Table \ref{tab:realistic_results} compares the main models in this setting.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{p{0.48\linewidth}ccc}
+\toprule
+\textbf{Model} & \textbf{Accuracy} & \textbf{Macro-F1} & \textbf{Weighted-F1} \\
+\midrule
+Majority baseline & 0.9189 & 0.2394 & -- \\
+Logistic Regression on CLIP embeddings & 0.8297 & 0.4725 & 0.8658 \\
+CLIP head-only fine-tuning & 0.8506 & 0.5124 & 0.8827 \\
+CLIP partial fine-tuning, last visual block & 0.9040 & 0.6033 & 0.9188 \\
+Random Forest on CLIP embeddings & 0.9401 & 0.6234 & -- \\
+Linear SVM on CLIP embeddings & 0.8983 & 0.6260 & 0.9116 \\
+Gradient Boosting on CLIP embeddings & 0.9203 & 0.6390 & -- \\
+MLP on CLIP embeddings & 0.9051 & 0.6420 & 0.9183 \\
+Image and Text Fusion MLP & \textbf{0.9092} & \textbf{0.6493} & \textbf{0.9211} \\
+\bottomrule
+\end{tabular}
+\caption{Final realistic evaluation results. The best model is selected according to Macro-F1.}
+\label{tab:realistic_results}
+\end{table}
+
+Although Random Forest and the majority baseline achieved high accuracy, their Macro-F1 scores were lower than the final fusion model. This demonstrates why accuracy alone is not a reliable metric for this project. A model can achieve high accuracy by focusing mainly on the dominant safe class, but the real goal is to detect both safe and sensitive advertisement categories.
+
+The Image and Text Fusion MLP achieved the highest Macro-F1 score in the realistic setting. Therefore, it was selected as the final model. The MLP on frozen CLIP embeddings was the strongest image-only model, and it performed very close to the fusion model. However, the fusion model still achieved the best Macro-F1 and Weighted-F1.
+
+\subsection{Partial Fine-Tuning Results}
+
+Table \ref{tab:fine_tuning_results} focuses on the two partial fine-tuning experiments. The purpose of these experiments was to test whether training part of CLIP improves performance compared to training only a small classification head.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lccc}
+\toprule
+\textbf{Model} & \textbf{Accuracy} & \textbf{Macro-F1} & \textbf{Weighted-F1} \\
+\midrule
+CLIP head-only fine-tuning & 0.8506 & 0.5124 & 0.8827 \\
+CLIP partial fine-tuning, last visual block & \textbf{0.9040} & \textbf{0.6033} & \textbf{0.9188} \\
+\bottomrule
+\end{tabular}
+\caption{Fine-tuning experiment results.}
+\label{tab:fine_tuning_results}
+\end{table}
+
+The results show that partial fine-tuning clearly improved over the head-only model. The Macro-F1 score increased from 0.5124 to 0.6033. However, partial fine-tuning still did not outperform the frozen CLIP embedding MLP or the Image and Text Fusion MLP. This suggests that, for this project and dataset, frozen CLIP representations combined with a strong classifier were more effective than a small partial fine-tuning setup.
+
+\subsection{Per-Class Results of the Final Model}
+
+Table \ref{tab:per_class_final} shows the per-class performance of the final Image and Text Fusion MLP. The model performs very well on the large safe or irrelevant class, while the smaller sensitive classes are more difficult.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Class} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-score} & \textbf{Support} \\
+\midrule
+bullying & 0.3472 & 0.5814 & 0.4348 & 43 \\
+safe or irrelevant & 0.9875 & 0.9149 & 0.9500 & 7951 \\
+substance & 0.4637 & 0.8697 & 0.6048 & 522 \\
+violence or abuse & 0.4809 & 0.8248 & 0.6075 & 137 \\
+\bottomrule
+\end{tabular}
+\caption{Per-class results of the final Image and Text Fusion MLP.}
+\label{tab:per_class_final}
+\end{table}
+
+The most difficult class is bullying. This is expected because it has very few examples and because bullying-related content can be subtle and context-dependent. The model has higher recall than precision for the sensitive classes, which means that it detects many unsafe examples but also sometimes flags safe advertisements as unsafe.
+
+\section{Final Model Confusion Matrix}
+
+The confusion matrix of the final Image and Text Fusion MLP model is shown in Table \ref{tab:confusion}. Rows represent the true labels and columns represent the predicted labels.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lcccc}
+\toprule
+\textbf{True Category} & \textbf{Pred Bullying} & \textbf{Pred Safe} & \textbf{Pred Substance} & \textbf{Pred Violence} \\
+\midrule
+bullying & 25 & 12 & 2 & 4 \\
+safe or irrelevant & 43 & 7275 & 518 & 115 \\
+substance & 1 & 64 & 454 & 3 \\
+violence or abuse & 3 & 16 & 5 & 113 \\
+\bottomrule
+\end{tabular}
+\caption{Confusion matrix of the final Image and Text Fusion MLP.}
+\label{tab:confusion}
+\end{table}
+
+The model correctly identifies most safe advertisements and many examples from the substance and violence or abuse categories. The confusion matrix also shows that the model sometimes confuses safe advertisements with substance or violence. This can happen because advertisements may contain visual elements that look risky even when the actual topic is safe.
+
+\section{Error Analysis}
+
+An error analysis was performed to understand the most common mistakes of the final model. The largest off-diagonal entries from the confusion matrix are shown in Table \ref{tab:errors}.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lc}
+\toprule
+\textbf{Error Type} & \textbf{Count} \\
+\midrule
+safe or irrelevant predicted as substance & 518 \\
+safe or irrelevant predicted as violence or abuse & 115 \\
+substance predicted as safe or irrelevant & 64 \\
+safe or irrelevant predicted as bullying & 43 \\
+violence or abuse predicted as safe or irrelevant & 16 \\
+bullying predicted as safe or irrelevant & 12 \\
+\bottomrule
+\end{tabular}
+\caption{Most common error types in the final model.}
+\label{tab:errors}
+\end{table}
+
+The errors show two main problems. First, the model sometimes misses sensitive content and classifies it as safe. This type of error is important in moderation because harmful content may remain undetected. Examples include substance predicted as safe, violence or abuse predicted as safe, and bullying predicted as safe. Second, the model sometimes classifies safe advertisements as sensitive. This can also be problematic because it may incorrectly flag harmless advertisements.
+
+The largest error type is safe or irrelevant predicted as substance. This may happen because some safe advertisements contain objects, colors, packaging, or lifestyle imagery that visually resemble substance-related advertisements. Another major error type is safe or irrelevant predicted as violence or abuse. This may happen when an advertisement contains intense facial expressions, dramatic poses, sharp objects, or aggressive visual style even if the actual content is not harmful.
+
+The bullying class remains difficult. This is expected because the class is very small and because bullying is often context-dependent. It may require a deeper understanding of social meaning, not only visual object recognition.
+
+\section{Qualitative Review and Operational Use}
+
+To make the system more realistic, prediction examples were generated with confidence, safety, and uncertainty scores. These examples include:
+\begin{itemize}
+    \item high-confidence errors,
+    \item uncertain predictions,
+    \item false negatives where unsafe advertisements were predicted as safe,
+    \item false positives where safe advertisements were predicted as unsafe,
+    \item top unsafe predictions.
+\end{itemize}
+
+This qualitative review is important because numerical metrics do not explain why the model makes mistakes. In a moderation system, some mistakes are more serious than others. For example, a false negative may allow harmful content to remain online, while a false positive may incorrectly block a harmless advertisement.
+
+The confidence and safety scores can support a human review policy. For example:
+\begin{itemize}
+    \item advertisements with high unsafe scores can be prioritized for review,
+    \item advertisements with low confidence can be sent to manual review,
+    \item advertisements predicted as safe with high confidence can be approved more quickly.
+\end{itemize}
+
+This does not replace a human moderator, but it makes the model more useful as part of a real decision-support system.
+
+\subsection{Manual Review Threshold Analysis}
+
+To make the system closer to a real moderation scenario, a threshold-based manual review analysis was performed using the confidence scores from the realistic CLIP-embedding MLP predictions. Instead of forcing the model to automatically decide every advertisement, predictions with low confidence were routed to manual review. The remaining high-confidence examples were treated as automatic decisions.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccccc}
+\toprule
+\textbf{Confidence Threshold} & \textbf{Sent to Review} & \textbf{Review \%} & \textbf{Auto Accuracy} & \textbf{Auto Macro-F1} \\
+\midrule
+0.50 & 32 & 0.37\% & 0.9067 & 0.6485 \\
+0.60 & 194 & 2.24\% & 0.9139 & 0.6617 \\
+0.70 & 410 & 4.74\% & 0.9227 & 0.6861 \\
+0.80 & 637 & 7.36\% & 0.9328 & 0.7154 \\
+0.90 & 961 & 11.11\% & 0.9433 & 0.7424 \\
+\bottomrule
+\end{tabular}
+\caption{Manual review threshold analysis using prediction confidence.}
+\label{tab:manual_review}
+\end{table}
+
+The results show a clear trade-off between automation and reliability. When the confidence threshold is increased, more advertisements are sent to manual review, but the performance on the automatically decided examples improves. For example, using a threshold of 0.70 sends only 4.74\% of the test examples to review, while increasing the accuracy of automatic decisions to 0.9227 and the Macro-F1 score to 0.6861. A stricter threshold of 0.90 sends 11.11\% of the examples to review and increases the automatic-decision Macro-F1 score to 0.7424.
+
+This analysis makes the model more practical for a real moderation system. In sensitive moderation tasks, the model should not always make a final automatic decision. Low-confidence examples can be routed to human moderators, while high-confidence examples can be handled automatically.
+
+\section{Discussion}
+
+The results show that combining visual and textual information is useful for advertisement moderation. CLIP image embeddings provide strong visual representations, while OCR adds information from written text inside the advertisement. The fusion model benefits from both sources of information and achieves the best Macro-F1 score.
+
+The results also show the importance of using the correct metric. Because the dataset is imbalanced, accuracy can be misleading. For example, both Random Forest and the majority baseline achieved high accuracy, but their Macro-F1 scores were lower than the final fusion model. This means that the final model is better for the real goal of the project: detecting both safe and sensitive advertisement categories.
+
+Compared to CLIP zero-shot classification, the trained models performed better because they were adapted to the project labels. Compared to OCR-only models, the fusion model performed better because it also used visual information. Compared to image-only models, the fusion model benefited from textual information that appears inside the advertisements.
+
+The realistic evaluation experiment shows that frozen CLIP embeddings are highly useful for advertisement moderation. Even without fine-tuning CLIP, the MLP classifier achieved strong performance on a realistic and imbalanced test set. The partial fine-tuning experiment also provided an important result: unfreezing the last CLIP visual block improved over training only a classification head, but it did not outperform the frozen CLIP embedding MLP or the multimodal fusion model. This suggests that strong feature extraction with a supervised classifier is a very effective approach for this task.
+
+The manual review threshold analysis adds an operational perspective. It shows that the model does not need to make a final automatic decision for every advertisement. By routing uncertain cases to manual review, the system can improve the reliability of automatic decisions while keeping the review workload relatively small.
+
+The task remains challenging because the minority classes are much smaller than the safe class. Bullying is especially difficult because it contains few examples and may depend on social context. The confidence and safety scores provide useful operational signals, but they should be used carefully because a model can sometimes be highly confident even when it is wrong.
+
+\section{Limitations}
+
+The project has several limitations:
+\begin{enumerate}
+    \item The bullying class contains very few examples, making it difficult for the model to learn this category well.
+    \item The realistic evaluation set is highly imbalanced. This represents a realistic scenario, but it makes rare harmful classes hard to evaluate.
+    \item OCR is not always accurate, especially when the text is small, stylized, or placed on a complex background.
+    \item Some moderation categories require deeper semantic understanding than what is available from image embeddings and OCR text.
+    \item The mapping from original advertisement topics to moderation categories is useful, but it is still a coarse mapping and may not capture all subtle cases.
+    \item The partial fine-tuning experiment was limited to the last visual block of CLIP. More extensive fine-tuning may require stronger hardware and careful regularization.
+    \item Confidence scores are not fully calibrated. A high confidence score does not always guarantee correctness.
+    \item The manual review threshold analysis was performed on the realistic CLIP-embedding MLP predictions. Applying the same policy to a production system would require calibration and additional validation.
+\end{enumerate}
+
+\section{Future Work}
+
+Future work can extend the project in several directions:
+\begin{enumerate}
+    \item Test deeper fine-tuning of CLIP, such as unfreezing more visual blocks or using different learning rates for the visual encoder and the classification head.
+    \item Explore additional imbalance-handling methods, such as focal loss, improved class weighting, or more targeted sampling for minority classes.
+    \item Improve the OCR pipeline using stronger OCR models or better image preprocessing before text extraction.
+    \item Use a stronger multimodal vision-language model that can jointly process the image and the text instead of combining separate feature vectors.
+    \item Add more examples for small sensitive categories, especially bullying.
+    \item Further improve the manual review policy by calibrating confidence scores and combining confidence thresholds with unsafe-score thresholds.
+    \item Analyze more qualitative examples in order to understand which visual and textual patterns help or hurt the model.
+\end{enumerate}
+
+\section{Conclusion}
+
+This project developed a complete pipeline for advertisement moderation classification. The pipeline included dataset mapping, train-validation-test splitting, model training, final evaluation, partial fine-tuning, confidence scoring, manual review threshold analysis, and error analysis.
+
+The main conclusion is that combining visual and textual information is the best approach for this task. The final Image and Text Fusion MLP achieved an accuracy of 0.9092, a Macro-F1 score of 0.6493, and a Weighted-F1 score of 0.9211 in the realistic evaluation setting. In the controlled evaluation setting, the same direction was also supported, with the Image + OCR Fusion MLP achieving the strongest Macro-F1 score.
+
+The project demonstrates the importance of multimodal learning and appropriate evaluation metrics when working with imbalanced datasets and sensitive moderation categories. It also shows that high accuracy is not enough in moderation tasks. A model must also perform well on smaller sensitive categories, which is why Macro-F1 was the main metric in this project. Overall, the results show that CLIP representations are strong for advertisement moderation, OCR adds useful textual information, and the best system is a multimodal model that combines both sources of information.
+
+\begin{thebibliography}{9}
+
+\bibitem{hussain2017ads}
+Z. Hussain, M. Zhang, X. Zhang, K. Ye, C. Thomas, Z. Agha, N. Ong, and A. Kovashka.
+\textit{Automatic Understanding of Image and Video Advertisements}.
+Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2017.
+
+\bibitem{radford2021clip}
+A. Radford, J. W. Kim, C. Hallacy, A. Ramesh, G. Goh, S. Agarwal, G. Sastry, A. Askell, P. Mishkin, J. Clark, G. Krueger, and I. Sutskever.
+\textit{Learning Transferable Visual Models From Natural Language Supervision}.
+International Conference on Machine Learning, 2021.
+
+\bibitem{li2019visualbert}
+L. H. Li, M. Yatskar, D. Yin, C.-J. Hsieh, and K.-W. Chang.
+\textit{VisualBERT: A Simple and Performant Baseline for Vision and Language}.
+2019.
+
+\bibitem{kim2021vilt}
+W. Kim, B. Son, and I. Kim.
+\textit{ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision}.
+International Conference on Machine Learning, 2021.
+
+\bibitem{li2022blip}
+J. Li, D. Li, C. Xiong, and S. Hoi.
+\textit{BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation}.
+International Conference on Machine Learning, 2022.
+
+\bibitem{smith2007tesseract}
+R. Smith.
+\textit{An Overview of the Tesseract OCR Engine}.
+International Conference on Document Analysis and Recognition, 2007.
+
+\bibitem{baltrusaitis2019multimodal}
+T. Baltru\v{s}aitis, C. Ahuja, and L.-P. Morency.
+\textit{Multimodal Machine Learning: A Survey and Taxonomy}.
+IEEE Transactions on Pattern Analysis and Machine Intelligence, 2019.
+
+\end{thebibliography}
+
+\end{document}
