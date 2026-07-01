@@ -1,0 +1,19 @@
+Confidence calibration analysis
+=============================================
+
+Total examples: 8653
+Overall accuracy: 0.9092
+Expected Calibration Error: 0.0532
+High-confidence examples >= 0.90: 7662
+High-confidence errors >= 0.90: 366
+Low-confidence examples < 0.60: 223
+
+Confidence bins:
+confidence_bin  count   percent  avg_confidence  accuracy  error_rate  calibration_gap
+    (0.3, 0.4]      5  0.057783        0.379479  0.600000    0.400000        -0.220521
+    (0.4, 0.5]     43  0.496937        0.462089  0.441860    0.558140         0.020228
+    (0.5, 0.6]    175  2.022420        0.548827  0.445714    0.554286         0.103112
+    (0.6, 0.7]    194  2.241997        0.650629  0.561856    0.438144         0.088773
+    (0.7, 0.8]    223  2.577141        0.748809  0.578475    0.421525         0.170333
+    (0.8, 0.9]    351  4.056397        0.854391  0.663818    0.336182         0.190574
+    (0.9, 1.0]   7662 88.547325        0.993815  0.952232    0.047768         0.041583
