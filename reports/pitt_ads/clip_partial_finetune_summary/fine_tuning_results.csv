@@ -1,0 +1,3 @@
+model,accuracy,macro_f1,weighted_f1,notes
+clip_head_only_finetuning,0.8506,0.5124,0.8827,External run using frozen CLIP visual encoder and trainable classification head
+clip_partial_finetuning_unfreeze_last_visual_block,0.9040,0.6033,0.9188,External run with the last CLIP visual block unfrozen

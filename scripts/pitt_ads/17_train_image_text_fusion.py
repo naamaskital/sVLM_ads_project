@@ -202,11 +202,39 @@ def evaluate(model_name, model, X, y, split, output_dir, image_paths):
     cm_df.to_csv(output_dir / f"{model_name}_{split}_confusion_matrix.csv")
 
     predictions_path = output_dir / f"{model_name}_{split}_predictions.csv"
-    pd.DataFrame({
+
+    predictions_df = pd.DataFrame({
         "image_path": image_paths,
         "true_label": y,
         "predicted_label": pred,
-    }).to_csv(predictions_path, index=False)
+    })
+
+    # Save probability-based confidence scores when the model supports predict_proba.
+    # This is used for confidence analysis and manual review threshold evaluation.
+    if hasattr(model, "predict_proba"):
+        proba = model.predict_proba(X)
+
+        class_names = list(getattr(model, "classes_", []))
+        if not class_names and hasattr(model, "named_steps"):
+            last_step = list(model.named_steps.values())[-1]
+            class_names = list(getattr(last_step, "classes_", []))
+
+        if len(class_names) == proba.shape[1]:
+            for class_idx, class_name in enumerate(class_names):
+                predictions_df[f"prob_{class_name}"] = proba[:, class_idx]
+
+            predictions_df["confidence_score"] = proba.max(axis=1)
+
+            if "safe_or_irrelevant" in class_names:
+                safe_idx = class_names.index("safe_or_irrelevant")
+                predictions_df["safety_score"] = proba[:, safe_idx]
+                predictions_df["unsafe_score"] = 1.0 - predictions_df["safety_score"]
+
+    predictions_df["is_correct"] = (
+        predictions_df["true_label"] == predictions_df["predicted_label"]
+    )
+
+    predictions_df.to_csv(predictions_path, index=False)
 
     row = {
         "model": model_name,

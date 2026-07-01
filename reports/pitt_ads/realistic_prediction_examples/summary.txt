@@ -1,0 +1,6 @@
+Realistic prediction examples and manual review analysis\n============================================================\n\nInput predictions: /home/naama/sVLM_ads_project/reports/pitt_ads/image_text_fusion/fusion_mlp_test_predictions.csv\nTotal examples: 8653\nErrors: 786\nUnsafe predicted as safe: 92\nSafe predicted as unsafe: 676\n\nManual review threshold analysis:\n confidence_threshold  sent_to_review  review_percent  auto_accuracy  auto_macro_f1  automatic_decisions
+                  0.5              48        0.554721       0.911679       0.661321                 8605
+                  0.6             223        2.577141       0.921352       0.690098                 8430
+                  0.7             417        4.819138       0.929820       0.714582                 8236
+                  0.8             640        7.396279       0.939598       0.741702                 8013
+                  0.9             991       11.452675       0.952232       0.779307                 7662\n
