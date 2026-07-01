@@ -472,7 +472,7 @@ This does not replace a human moderator, but it makes the model more useful as p
 
 \subsection{Manual Review Threshold Analysis}
 
-To make the system closer to a real moderation scenario, a threshold-based manual review analysis was performed using the confidence scores from the realistic CLIP-embedding MLP predictions. Instead of forcing the model to automatically decide every advertisement, predictions with low confidence were routed to manual review. The remaining high-confidence examples were treated as automatic decisions.
+To make the system closer to a real moderation scenario, a threshold-based manual review analysis was performed using the confidence scores from the final Image and Text Fusion MLP predictions. Instead of forcing the model to automatically decide every advertisement, predictions with low confidence were routed to manual review. The remaining high-confidence examples were treated as automatic decisions.
 
 \begin{table}[H]
 \centering
@@ -480,20 +480,48 @@ To make the system closer to a real moderation scenario, a threshold-based manua
 \toprule
 \textbf{Confidence Threshold} & \textbf{Sent to Review} & \textbf{Review \%} & \textbf{Auto Accuracy} & \textbf{Auto Macro-F1} \\
 \midrule
-0.50 & 32 & 0.37\% & 0.9067 & 0.6485 \\
-0.60 & 194 & 2.24\% & 0.9139 & 0.6617 \\
-0.70 & 410 & 4.74\% & 0.9227 & 0.6861 \\
-0.80 & 637 & 7.36\% & 0.9328 & 0.7154 \\
-0.90 & 961 & 11.11\% & 0.9433 & 0.7424 \\
+0.50 & 48 & 0.55\% & 0.9117 & 0.6613 \\
+0.60 & 223 & 2.58\% & 0.9214 & 0.6901 \\
+0.70 & 417 & 4.82\% & 0.9298 & 0.7146 \\
+0.80 & 640 & 7.40\% & 0.9396 & 0.7417 \\
+0.90 & 991 & 11.45\% & 0.9522 & 0.7793 \\
 \bottomrule
 \end{tabular}
 \caption{Manual review threshold analysis using prediction confidence.}
 \label{tab:manual_review}
 \end{table}
 
-The results show a clear trade-off between automation and reliability. When the confidence threshold is increased, more advertisements are sent to manual review, but the performance on the automatically decided examples improves. For example, using a threshold of 0.70 sends only 4.74\% of the test examples to review, while increasing the accuracy of automatic decisions to 0.9227 and the Macro-F1 score to 0.6861. A stricter threshold of 0.90 sends 11.11\% of the examples to review and increases the automatic-decision Macro-F1 score to 0.7424.
+The results show a clear trade-off between automation and reliability. When the confidence threshold is increased, more advertisements are sent to manual review, but the performance on the automatically decided examples improves. For example, using a threshold of 0.70 sends 417 examples to review, which is 4.82\% of the realistic test set, while increasing the automatic-decision accuracy to 0.9298 and the automatic-decision Macro-F1 score to 0.7146. A stricter threshold of 0.90 sends 991 examples to review, which is 11.45\% of the test set, and increases the automatic-decision Macro-F1 score to 0.7793.
 
 This analysis makes the model more practical for a real moderation system. In sensitive moderation tasks, the model should not always make a final automatic decision. Low-confidence examples can be routed to human moderators, while high-confidence examples can be handled automatically.
+
+\subsection{Confidence Calibration Analysis}
+
+In addition to the manual review threshold analysis, a confidence calibration analysis was performed for the final Image and Text Fusion MLP model. The goal was to examine whether the model confidence scores are reliable enough for operational use in a moderation system.
+
+The final model achieved an overall accuracy of 0.9092. The Expected Calibration Error (ECE) was 0.0532, which indicates that the confidence scores are informative but not perfectly calibrated.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lc}
+\toprule
+\textbf{Measure} & \textbf{Value} \\
+\midrule
+Total examples & 8653 \\
+Overall accuracy & 0.9092 \\
+Expected Calibration Error (ECE) & 0.0532 \\
+High-confidence examples, confidence $\geq 0.90$ & 7662 \\
+High-confidence errors, confidence $\geq 0.90$ & 366 \\
+Low-confidence examples, confidence $< 0.60$ & 223 \\
+\bottomrule
+\end{tabular}
+\caption{Confidence calibration summary for the final Image and Text Fusion MLP.}
+\label{tab:confidence_calibration}
+\end{table}
+
+Most examples had very high confidence. Specifically, 7662 examples had a confidence score of at least 0.90. However, 366 of these high-confidence examples were still incorrect. This shows that even when the model is highly confident, mistakes can still occur. Therefore, confidence scores should be used as decision-support signals rather than as a complete replacement for human review.
+
+The analysis also found 223 examples with confidence below 0.60. These low-confidence examples are natural candidates for manual review. Overall, the calibration analysis supports the operational design of the system: high-confidence predictions can be handled automatically more often, while uncertain predictions should be routed to manual review.
 
 \section{Discussion}
 
@@ -505,7 +533,7 @@ Compared to CLIP zero-shot classification, the trained models performed better b
 
 The realistic evaluation experiment shows that frozen CLIP embeddings are highly useful for advertisement moderation. Even without fine-tuning CLIP, the MLP classifier achieved strong performance on a realistic and imbalanced test set. The partial fine-tuning experiment also provided an important result: unfreezing the last CLIP visual block improved over training only a classification head, but it did not outperform the frozen CLIP embedding MLP or the multimodal fusion model. This suggests that strong feature extraction with a supervised classifier is a very effective approach for this task.
 
-The manual review threshold analysis adds an operational perspective. It shows that the model does not need to make a final automatic decision for every advertisement. By routing uncertain cases to manual review, the system can improve the reliability of automatic decisions while keeping the review workload relatively small.
+The manual review threshold analysis and the confidence calibration analysis add an operational perspective. They show that the model does not need to make a final automatic decision for every advertisement. By routing uncertain cases to manual review and by checking how reliable the confidence scores are, the system can improve the reliability of automatic decisions while keeping the review workload relatively small.
 
 The task remains challenging because the minority classes are much smaller than the safe class. Bullying is especially difficult because it contains few examples and may depend on social context. The confidence and safety scores provide useful operational signals, but they should be used carefully because a model can sometimes be highly confident even when it is wrong.
 
@@ -532,13 +560,13 @@ Future work can extend the project in several directions:
     \item Improve the OCR pipeline using stronger OCR models or better image preprocessing before text extraction.
     \item Use a stronger multimodal vision-language model that can jointly process the image and the text instead of combining separate feature vectors.
     \item Add more examples for small sensitive categories, especially bullying.
-    \item Further improve the manual review policy by calibrating confidence scores and combining confidence thresholds with unsafe-score thresholds.
+    \item Further improve confidence calibration and manual review policies. In this project, an initial confidence calibration analysis was performed, but a production system would require stronger calibration methods, such as temperature scaling, validation on additional data, and a combined policy using both confidence scores and unsafe scores.
     \item Analyze more qualitative examples in order to understand which visual and textual patterns help or hurt the model.
 \end{enumerate}
 
 \section{Conclusion}
 
-This project developed a complete pipeline for advertisement moderation classification. The pipeline included dataset mapping, train-validation-test splitting, model training, final evaluation, partial fine-tuning, confidence scoring, manual review threshold analysis, and error analysis.
+This project developed a complete pipeline for advertisement moderation classification. The pipeline included dataset mapping, train-validation-test splitting, model training, final evaluation, partial fine-tuning, confidence scoring, manual review threshold analysis, confidence calibration analysis, and error analysis.
 
 The main conclusion is that combining visual and textual information is the best approach for this task. The final Image and Text Fusion MLP achieved an accuracy of 0.9092, a Macro-F1 score of 0.6493, and a Weighted-F1 score of 0.9211 in the realistic evaluation setting. In the controlled evaluation setting, the same direction was also supported, with the Image + OCR Fusion MLP achieving the strongest Macro-F1 score.
 
