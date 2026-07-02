@@ -1,2 +1,2 @@
 total_examples,overall_accuracy,expected_calibration_error_ece,high_confidence_090_count,high_confidence_090_errors,low_confidence_under_060_count
-8653,0.909164451635271,0.05324430491411466,7662,366,223
+8653,0.9099734196232521,0.05238302794298652,7667,371,243
