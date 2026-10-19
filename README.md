@@ -167,6 +167,10 @@ Final summary:
 
 Per-class performance for the best model:
 
+![Per-class F1 for the final fusion MLP](docs/final_model_class_f1.svg)
+
+*The plot uses the per-class F1 scores reported below. Performance varies substantially by class; overall accuracy alone does not reflect minority-class performance.*
+
 | Class                |     F1 |
 | -------------------- | -----: |
 | `safe_or_irrelevant` | 0.9503 |
